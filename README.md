@@ -40,7 +40,7 @@ user text
 ## Verses are never made up
 
 * The AI never writes or sees verse text. It only picks a story id.
-* Every verse in `data/library.json` is pulled from the World English Bible by `npm run fill-verses` and stamped with a checksum.
+* Every verse in `data/library.json` is pulled from the World English Bible by `npm run fill-verses` and stamped with a checksum. The full WEB text lives in `data/web/eng-web.usfx.xml` (public domain, from github.com/seven1m/open-bibles), so filling verses works offline and takes seconds. The script refuses to run if that file has been changed.
 * `npm run build` runs `check-verses` first. If any verse is unverified, has a bad reference, or was edited by hand afterward, the build fails and Vercel will not deploy.
 * `npm run dev` still works before verification so you can test locally.
 
@@ -49,7 +49,7 @@ user text
 Add an entry to `data/library.json` with an id, title, ref, tags, a plain retelling and verse refs (text can be blank). Then run:
 
 ```bash
-npm run fill-verses -- --missing   # only fetches new or changed verses
+npm run fill-verses -- --missing   # only fills new or changed verses
 npm run check-verses               # confirms everything is verified
 ```
 

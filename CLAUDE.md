@@ -7,7 +7,7 @@ Users describe a feeling or situation and get back a real Bible story, a short n
 ```bash
 npm install
 npm run dev                          # local, works without a Gemini key (demo mode)
-npm run fill-verses                  # pull exact WEB text for every verse (needs internet, ~5 min)
+npm run fill-verses                  # pull exact WEB text for every verse from the local file (offline, seconds)
 npm run fill-verses -- --missing     # only new or changed verses
 npm run check-verses                 # fails if any verse is unverified
 npm run build                        # runs check-verses first (prebuild)
@@ -23,12 +23,13 @@ npm run lint                         # tsc --noEmit
 - `lib/gemini.ts` system prompt, JSON schema (storyId is an enum of library ids), safety settings.
 - `lib/library.ts` loads `data/library.json`, keyword matcher, comfort verse.
 - `lib/rateLimit.ts` in-memory daily limit (replace with Upstash Redis before launch).
-- `data/library.json` the story library. Source of truth for all scripture.
+- `data/library.json` the story library. Source of truth for all scripture shown in the app.
+- `data/web/eng-web.usfx.xml` the full World English Bible (public domain, from github.com/seven1m/open-bibles, the dataset bible-api.com serves). fill-verses reads verses from it. Pinned by SHA-256 in `scripts/fill-verses.mjs`. Read only; not bundled into the app.
 - `scripts/` fill-verses, check-verses, verse-checksum, test-guardrails.
 
 ## Non-negotiable rules
 
-1. **Never type, paraphrase, or generate verse text.** All verse text comes from `npm run fill-verses` (World English Bible via bible-api.com) and carries a checksum. To add a verse, add its `ref` with empty `text`, then run fill-verses. Never edit `text` or `check` by hand. Never weaken or skip `check-verses` or the `prebuild` hook.
+1. **Never type, paraphrase, or generate verse text.** All verse text comes from `npm run fill-verses` (World English Bible, read from `data/web/eng-web.usfx.xml`) and carries a checksum. To add a verse, add its `ref` with empty `text`, then run fill-verses. Never edit `text` or `check` by hand. Never edit, replace, or re-pin `data/web/eng-web.usfx.xml`, and never swap in a different WEB edition (eBible.org's current WEB uses "the LORD" and revised wording, not the text this library uses). Never weaken or skip `check-verses`, the source hash check, or the `prebuild` hook.
 2. **The AI never sees or returns scripture.** Gemini only returns `{category, storyId, connection}`. Story text and verses are always pulled from the library by id. Keep `storyId` as a schema enum and keep the `isValidStoryId` check.
 3. **No internet tools for the model.** Do not add Google Search grounding, URL context, function calling, or any tools to the Gemini call.
 4. **Guardrails run before the AI.** Crisis, harm-to-others, and crime-how-to messages return early and never reach Gemini. Do not move, loosen, or remove these checks. If you add patterns, add matching cases to `scripts/test-guardrails.ts` and keep them all passing.
