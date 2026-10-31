@@ -1,0 +1,2368 @@
+{
+  "translation": "World English Bible (WEB), public domain",
+  "fallbackId": "david-shepherd",
+  "stories": [
+    {
+      "id": "david-shepherd",
+      "title": "David, the shepherd who wrote Psalm 23",
+      "ref": "1 Samuel 16; Psalm 23",
+      "tags": [
+        "lost",
+        "uncertain",
+        "lonely",
+        "afraid",
+        "general",
+        "comfort"
+      ],
+      "story": "Before David was a king, he was the youngest son, sent out to watch sheep while his brothers got noticed. He knew what it was to protect something fragile in the dark. Later, through danger and seasons on the run, he wrote that God was his shepherd and stayed with him even in the darkest valley.",
+      "verses": [
+        {
+          "ref": "Psalm 23:1",
+          "text": "Yahweh is my shepherd: I shall lack nothing.",
+          "check": "d3706cf16d1d4adb"
+        },
+        {
+          "ref": "Psalm 23:4",
+          "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.",
+          "check": "6f1365f086821d53"
+        }
+      ]
+    },
+    {
+      "id": "joseph-betrayal",
+      "title": "Joseph and his brothers",
+      "ref": "Genesis 37 to 50",
+      "tags": [
+        "betrayal",
+        "friend",
+        "family",
+        "jealousy",
+        "injustice",
+        "forgiveness",
+        "hurt"
+      ],
+      "story": "Joseph's own brothers were jealous of him, so they threw him in a pit and sold him into slavery. He spent years as a slave and then in prison for something he didn't do. Over time God raised him up to lead Egypt. When a famine hit, the same brothers came to him for food, and Joseph chose to forgive them.",
+      "verses": [
+        {
+          "ref": "Genesis 50:20",
+          "text": "As for you, you meant evil against me, but God meant it for good, to bring to pass, as it is today, to save many people alive.",
+          "check": "803621967d550792"
+        },
+        {
+          "ref": "Psalm 34:18",
+          "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+          "check": "d9a3c69089463653"
+        }
+      ]
+    },
+    {
+      "id": "joseph-forgotten",
+      "title": "Joseph forgotten in prison",
+      "ref": "Genesis 40 to 41",
+      "tags": [
+        "stuck",
+        "forgotten",
+        "overlooked",
+        "waiting",
+        "career",
+        "job",
+        "unfair"
+      ],
+      "story": "In prison, Joseph helped Pharaoh's cupbearer by explaining his dream, and asked only to be remembered. The cupbearer got out and forgot him for two more years. Then Pharaoh had a dream no one could explain, the cupbearer finally remembered, and Joseph went from prison to second in command in a single day.",
+      "verses": [
+        {
+          "ref": "Galatians 6:9",
+          "text": "Let us not be weary in doing good, for we will reap in due season, if we don’t give up.",
+          "check": "d95dbb738eadfe81"
+        }
+      ]
+    },
+    {
+      "id": "peter-water",
+      "title": "Peter walks on the water",
+      "ref": "Matthew 14:22 to 33",
+      "tags": [
+        "anxiety",
+        "worry",
+        "fear",
+        "money",
+        "future",
+        "doubt",
+        "stress"
+      ],
+      "story": "In the middle of a storm, the disciples saw Jesus walking toward their boat on the water. Peter asked to come to him, stepped out, and actually walked on the waves. Then he looked at the wind, got scared, and started to sink. He cried out, and Jesus reached out and caught him right away.",
+      "verses": [
+        {
+          "ref": "Matthew 6:34",
+          "text": "Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient.",
+          "check": "1a678ae09a16f8d5"
+        },
+        {
+          "ref": "Philippians 4:6-7",
+          "text": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
+          "check": "682af8fd688f43ae"
+        }
+      ]
+    },
+    {
+      "id": "elijah-burnout",
+      "title": "Elijah under the broom tree",
+      "ref": "1 Kings 19",
+      "tags": [
+        "burnout",
+        "tired",
+        "exhausted",
+        "done",
+        "quit",
+        "empty",
+        "depressed"
+      ],
+      "story": "Right after one of his biggest wins, Elijah was threatened and ran for his life. He sat under a tree in the desert and told God he'd had enough. God didn't lecture him. He let Elijah sleep, sent an angel with food, and let him rest again before the next step.",
+      "verses": [
+        {
+          "ref": "1 Kings 19:7",
+          "text": "Yahweh’s angel came again the second time, and touched him, and said, “Arise and eat, because the journey is too great for you.”",
+          "check": "d8f5875214086ca2"
+        },
+        {
+          "ref": "Matthew 11:28",
+          "text": "“Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+          "check": "bc818f3c9cbc4fdd"
+        }
+      ]
+    },
+    {
+      "id": "prodigal-son",
+      "title": "The son who came home",
+      "ref": "Luke 15:11 to 32",
+      "tags": [
+        "shame",
+        "regret",
+        "messed up",
+        "family",
+        "coming back",
+        "faith",
+        "unworthy"
+      ],
+      "story": "Jesus told of a young man who took his inheritance early and wasted all of it. Broke and hungry, he decided to go home and beg to be a servant. But while he was still far off, his father saw him, ran to him, and threw a party. The father never made him earn his way back.",
+      "verses": [
+        {
+          "ref": "Luke 15:20",
+          "text": "“He arose, and came to his father. But while he was still far off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him.",
+          "check": "f7d532deccd7bafd"
+        }
+      ]
+    },
+    {
+      "id": "zacchaeus",
+      "title": "Zacchaeus makes it right",
+      "ref": "Luke 19:1 to 10",
+      "tags": [
+        "guilt",
+        "stole",
+        "cheated",
+        "wrongdoing",
+        "make it right",
+        "greed",
+        "dishonest"
+      ],
+      "story": "Zacchaeus was a tax collector who had gotten rich by cheating people, and everyone knew it. When Jesus came to town, Zacchaeus climbed a tree just to see him. Jesus called him by name and went to his house. Zacchaeus was so changed that he promised to give half his wealth to the poor and pay back anyone he cheated four times over.",
+      "verses": [
+        {
+          "ref": "Luke 19:8",
+          "text": "Zacchaeus stood and said to the Lord, “Behold, Lord, half of my goods I give to the poor. If I have wrongfully exacted anything of anyone, I restore four times as much.”",
+          "check": "8e8d57dfb642f32b"
+        },
+        {
+          "ref": "Luke 19:10",
+          "text": "For the Son of Man came to seek and to save that which was lost.”",
+          "check": "8fb40cac40fc0946"
+        }
+      ]
+    },
+    {
+      "id": "david-repentance",
+      "title": "David's prayer after his worst failure",
+      "ref": "2 Samuel 11 to 12; Psalm 51",
+      "tags": [
+        "guilt",
+        "failure",
+        "sin",
+        "cheated",
+        "ashamed",
+        "hurt someone"
+      ],
+      "story": "King David abused his power, took another man's wife, and tried to cover it up in a terrible way. When the prophet Nathan confronted him, David didn't make excuses. He owned it, faced the consequences, and wrote Psalm 51, asking God for a clean heart.",
+      "verses": [
+        {
+          "ref": "Psalm 51:10",
+          "text": "Create in me a clean heart, O God. Renew a right spirit within me.",
+          "check": "79c1b37f7e1056bb"
+        },
+        {
+          "ref": "1 John 1:9",
+          "text": "If we confess our sins, he is faithful and righteous to forgive us the sins, and to cleanse us from all unrighteousness.",
+          "check": "b280577dd6163681"
+        }
+      ]
+    },
+    {
+      "id": "peter-restored",
+      "title": "Peter denies Jesus, then is restored",
+      "ref": "Luke 22:54 to 62; John 21:15 to 19",
+      "tags": [
+        "let someone down",
+        "failure",
+        "regret",
+        "disappointed",
+        "second chance"
+      ],
+      "story": "Peter swore he would never abandon Jesus. That same night he denied even knowing him three times, then went out and wept. After the resurrection, Jesus found Peter by the sea, cooked him breakfast, and gave him three chances to say he loved him, one for each denial.",
+      "verses": [
+        {
+          "ref": "Lamentations 3:22-23",
+          "text": "It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail. They are new every morning. Great is your faithfulness.",
+          "check": "0abe9e0a4dc7bee5"
+        }
+      ]
+    },
+    {
+      "id": "hannah-longing",
+      "title": "Hannah prays for a child",
+      "ref": "1 Samuel 1",
+      "tags": [
+        "waiting",
+        "longing",
+        "infertility",
+        "unanswered prayer",
+        "sad",
+        "mocked"
+      ],
+      "story": "Hannah wanted a child more than anything, and another woman in the house mocked her for it year after year. She went to the temple and prayed so hard that the priest thought she was drunk. She poured out her heart honestly. In time she had a son, Samuel.",
+      "verses": [
+        {
+          "ref": "1 Samuel 1:27",
+          "text": "I prayed for this child; and Yahweh has given me my petition which I asked of him.",
+          "check": "e42badd5133f98fe"
+        },
+        {
+          "ref": "Psalm 62:8",
+          "text": "Trust in him at all times, you people. Pour out your heart before him. God is a refuge for us. Selah.",
+          "check": "5c391b486da4313e"
+        }
+      ]
+    },
+    {
+      "id": "ruth-loss",
+      "title": "Ruth starts over",
+      "ref": "Ruth 1 to 4",
+      "tags": [
+        "grief",
+        "loss",
+        "starting over",
+        "widow",
+        "loyalty",
+        "new place",
+        "alone"
+      ],
+      "story": "Ruth lost her husband young. Her mother in law Naomi had lost everything too and told Ruth to go back home. Ruth refused to leave her. She moved to a strange land, worked in the fields to feed them both, and found a new family and future there.",
+      "verses": [
+        {
+          "ref": "Ruth 1:16",
+          "text": "Ruth said, “Don’t urge me to leave you, and to return from following you, for where you go, I will go; and where you stay, I will stay. Your people will be my people, and your God my God.",
+          "check": "f832e2d7e151f743"
+        }
+      ]
+    },
+    {
+      "id": "lazarus-grief",
+      "title": "Jesus weeps with Mary and Martha",
+      "ref": "John 11",
+      "tags": [
+        "grief",
+        "death",
+        "loss",
+        "funeral",
+        "why",
+        "loved one died"
+      ],
+      "story": "Jesus' close friend Lazarus got sick and died before Jesus arrived. His sisters Mary and Martha were heartbroken and asked why he hadn't come sooner. Jesus didn't rush past their pain. He stood at the tomb and wept with them, even knowing he was about to raise Lazarus to life.",
+      "verses": [
+        {
+          "ref": "John 11:35",
+          "text": "Jesus wept.",
+          "check": "c0926766c0432bf4"
+        },
+        {
+          "ref": "John 11:25",
+          "text": "Jesus said to her, “I am the resurrection and the life. He who believes in me will still live, even if he dies.",
+          "check": "d1f77910ca8c7a84"
+        }
+      ]
+    },
+    {
+      "id": "job-suffering",
+      "title": "Job loses everything",
+      "ref": "Job 1 to 2; 42",
+      "tags": [
+        "suffering",
+        "illness",
+        "lost everything",
+        "why me",
+        "unfair",
+        "pain"
+      ],
+      "story": "Job was a good man who lost his wealth, his children, and his health one after another. His friends blamed him. Job was brutally honest with God about his pain and questions, and God did not condemn his honesty. In the end God met him, and Job's life was restored.",
+      "verses": [
+        {
+          "ref": "Psalm 34:18",
+          "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+          "check": "d9a3c69089463653"
+        }
+      ]
+    },
+    {
+      "id": "moses-inadequate",
+      "title": "Moses says he's not good enough",
+      "ref": "Exodus 3 to 4",
+      "tags": [
+        "not good enough",
+        "inadequate",
+        "public speaking",
+        "new role",
+        "imposter",
+        "insecure"
+      ],
+      "story": "God called Moses to lead his people out of Egypt. Moses came up with excuse after excuse: no one will listen, I'm not a good speaker, send someone else. God didn't pick someone more confident. He promised to be with Moses and gave him his brother Aaron to help.",
+      "verses": [
+        {
+          "ref": "Exodus 4:12",
+          "text": "Now therefore go, and I will be with your mouth, and teach you what you shall speak.”",
+          "check": "ea18961cb24ec261"
+        }
+      ]
+    },
+    {
+      "id": "gideon-weak",
+      "title": "Gideon hiding in the winepress",
+      "ref": "Judges 6 to 7",
+      "tags": [
+        "weak",
+        "small",
+        "afraid",
+        "insecure",
+        "underdog",
+        "doubt myself"
+      ],
+      "story": "Gideon was hiding, threshing wheat in a winepress so enemy raiders wouldn't see him. An angel showed up and called him a mighty man of valor. Gideon said his clan was the weakest and he was the least in his family. God used him anyway, with an army cut down to just 300.",
+      "verses": [
+        {
+          "ref": "Judges 6:12",
+          "text": "Yahweh’s angel appeared to him, and said to him, “Yahweh is with you, you mighty man of valor!”",
+          "check": "1f860bf8bd3cb2a5"
+        },
+        {
+          "ref": "2 Corinthians 12:9",
+          "text": "He has said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Most gladly therefore I will rather glory in my weaknesses, that the power of Christ may rest on me.",
+          "check": "fc8e09c02aed9833"
+        }
+      ]
+    },
+    {
+      "id": "david-goliath",
+      "title": "David faces Goliath",
+      "ref": "1 Samuel 17",
+      "tags": [
+        "intimidated",
+        "big challenge",
+        "giant",
+        "courage",
+        "odds against me",
+        "scared"
+      ],
+      "story": "A giant named Goliath taunted Israel's army for forty days, and every soldier was too scared to face him. David, a teenage shepherd bringing his brothers lunch, volunteered. He turned down the king's armor, used what he knew, a sling and stones, and trusted God with the rest.",
+      "verses": [
+        {
+          "ref": "Joshua 1:9",
+          "text": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God is with you wherever you go.”",
+          "check": "357b503d0612da32"
+        }
+      ]
+    },
+    {
+      "id": "jesus-calms-storm",
+      "title": "Jesus calms the storm",
+      "ref": "Mark 4:35 to 41",
+      "tags": [
+        "overwhelmed",
+        "chaos",
+        "panic",
+        "everything at once",
+        "out of control"
+      ],
+      "story": "The disciples were crossing a lake when a huge storm hit and waves filled the boat. Jesus was asleep in the back. They woke him up shouting, \"Don't you care that we're dying?\" He stood up, spoke to the wind and waves, and everything went calm.",
+      "verses": [
+        {
+          "ref": "Mark 4:39",
+          "text": "He awoke, and rebuked the wind, and said to the sea, “Peace! Be still!” The wind ceased, and there was a great calm.",
+          "check": "2f7df6065749906b"
+        }
+      ]
+    },
+    {
+      "id": "paul-content",
+      "title": "Paul writes from prison",
+      "ref": "Philippians 4; Acts 16",
+      "tags": [
+        "money",
+        "bills",
+        "debt",
+        "lack",
+        "contentment",
+        "hard season",
+        "broke"
+      ],
+      "story": "Paul wrote his letter to the Philippians while under arrest. He had been rich in status and had also been hungry, beaten, and shipwrecked. From that place he wrote that he had learned to be content in plenty and in need, because Christ gave him strength.",
+      "verses": [
+        {
+          "ref": "Philippians 4:12-13",
+          "text": "I know how to be humbled, and I know also how to abound. In everything and in all things I have learned the secret both to be filled and to be hungry, both to abound and to be in need. I can do all things through Christ, who strengthens me.",
+          "check": "b90501e5740334c0"
+        },
+        {
+          "ref": "Philippians 4:19",
+          "text": "My God will supply every need of yours according to his riches in glory in Christ Jesus.",
+          "check": "f6570d56efc31fcf"
+        }
+      ]
+    },
+    {
+      "id": "jonah-running",
+      "title": "Jonah runs the other way",
+      "ref": "Jonah 1 to 3",
+      "tags": [
+        "running away",
+        "avoiding",
+        "second chance",
+        "rebellion",
+        "bad decision"
+      ],
+      "story": "God told Jonah to go to Nineveh, and Jonah boarded a ship headed the opposite direction. A storm hit, he was thrown overboard, and a great fish swallowed him. From inside the fish he prayed. God gave him a second chance, and Jonah went.",
+      "verses": [
+        {
+          "ref": "Jonah 2:2",
+          "text": "He said, “I called because of my affliction to Yahweh. He answered me. Out of the belly of Sheol I cried. You heard my voice.",
+          "check": "10e6ee9b94ae85be"
+        }
+      ]
+    },
+    {
+      "id": "woman-at-well",
+      "title": "The woman at the well",
+      "ref": "John 4:1 to 42",
+      "tags": [
+        "judged",
+        "outsider",
+        "past",
+        "rejected",
+        "reputation",
+        "ashamed"
+      ],
+      "story": "A Samaritan woman came to draw water at noon, likely to avoid the people who gossiped about her past. Jesus was there and asked her for a drink, breaking every social rule. He knew her whole story and still treated her with dignity. She ran back to town to tell the same people who had judged her.",
+      "verses": [
+        {
+          "ref": "Romans 8:1",
+          "text": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
+          "check": "1519bb893fcf9287"
+        }
+      ]
+    },
+    {
+      "id": "martha-busy",
+      "title": "Martha, worried about many things",
+      "ref": "Luke 10:38 to 42",
+      "tags": [
+        "busy",
+        "overworked",
+        "stressed",
+        "resentful",
+        "too much to do",
+        "hosting"
+      ],
+      "story": "Jesus visited the home of Martha and Mary. Martha rushed around doing all the work while Mary sat and listened to Jesus. Frustrated, Martha asked Jesus to tell her sister to help. Jesus answered her gently and invited her to slow down too.",
+      "verses": [
+        {
+          "ref": "Luke 10:41-42",
+          "text": "Jesus answered her, “Martha, Martha, you are anxious and troubled about many things, but one thing is needed. Mary has chosen the good part, which will not be taken away from her.”",
+          "check": "c363a491923f7d19"
+        }
+      ]
+    },
+    {
+      "id": "david-spares-saul",
+      "title": "David refuses revenge on Saul",
+      "ref": "1 Samuel 24",
+      "tags": [
+        "anger",
+        "revenge",
+        "wronged",
+        "enemy",
+        "boss",
+        "unfair treatment"
+      ],
+      "story": "King Saul was hunting David to kill him out of jealousy. One day Saul walked into the very cave where David was hiding. David's men told him this was his chance. David cut off a corner of Saul's robe but refused to harm him, and left justice to God.",
+      "verses": [
+        {
+          "ref": "Romans 12:19",
+          "text": "Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, “Vengeance belongs to me; I will repay, says the Lord.”",
+          "check": "318f8a8c6017f93f"
+        },
+        {
+          "ref": "Ephesians 4:26",
+          "text": "“Be angry, and don’t sin.” Don’t let the sun go down on your wrath,",
+          "check": "23c8c1ce8c8c5cfa"
+        }
+      ]
+    },
+    {
+      "id": "abraham-leaving",
+      "title": "Abraham leaves home",
+      "ref": "Genesis 12",
+      "tags": [
+        "moving",
+        "change",
+        "uncertain",
+        "new job",
+        "big decision",
+        "unknown"
+      ],
+      "story": "God told Abram to leave his country, his relatives, and his father's house and go to a land God would show him later. He didn't get a map or a timeline. He packed up and went anyway, one step at a time.",
+      "verses": [
+        {
+          "ref": "Genesis 12:1",
+          "text": "Now Yahweh said to Abram, “Leave your country, and your relatives, and your father’s house, and go to the land that I will show you.",
+          "check": "bb30c09cd8b4a445"
+        },
+        {
+          "ref": "Proverbs 3:5-6",
+          "text": "Trust in Yahweh with all your heart, and don’t lean on your own understanding. In all your ways acknowledge him, and he will make your paths straight.",
+          "check": "258751d9ae6d5538"
+        }
+      ]
+    },
+    {
+      "id": "jacob-esau",
+      "title": "Jacob and Esau reunite",
+      "ref": "Genesis 27; 32 to 33",
+      "tags": [
+        "estranged",
+        "family",
+        "sibling",
+        "reconcile",
+        "apology",
+        "conflict"
+      ],
+      "story": "Jacob cheated his brother Esau out of his blessing and fled for his life. Twenty years later he had to face him and was terrified. He sent gifts ahead and expected the worst. Instead Esau ran to meet him, hugged him, and they both wept.",
+      "verses": [
+        {
+          "ref": "Genesis 33:4",
+          "text": "Esau ran to meet him, embraced him, fell on his neck, kissed him, and they wept.",
+          "check": "7fa8dc4b9f45f3e7"
+        }
+      ]
+    },
+    {
+      "id": "gethsemane-lonely",
+      "title": "Jesus alone in Gethsemane",
+      "ref": "Matthew 26:36 to 46",
+      "tags": [
+        "lonely",
+        "abandoned",
+        "dread",
+        "alone",
+        "nobody understands",
+        "facing something hard"
+      ],
+      "story": "The night before the cross, Jesus asked his closest friends to stay awake and pray with him. They kept falling asleep. Alone and deeply distressed, he was honest with God about wanting another way, and still chose to trust him.",
+      "verses": [
+        {
+          "ref": "Matthew 26:39",
+          "text": "He went forward a little, fell on his face, and prayed, saying, “My Father, if it is possible, let this cup pass away from me; nevertheless, not what I desire, but what you desire.”",
+          "check": "4e39494b2071364e"
+        },
+        {
+          "ref": "Hebrews 13:5",
+          "text": "Be free from the love of money, content with such things as you have, for he has said, “I will in no way leave you, neither will I in any way forsake you.”",
+          "check": "97ce64e3b9a46138"
+        }
+      ]
+    },
+    {
+      "id": "jochebed-parent",
+      "title": "Moses' mother lets go",
+      "ref": "Exodus 2:1 to 10",
+      "tags": [
+        "parent",
+        "new parent",
+        "baby",
+        "worried about my kid",
+        "protect",
+        "letting go"
+      ],
+      "story": "When Pharaoh ordered baby boys killed, Moses' mother hid him for three months. When she couldn't hide him any longer, she made a basket, placed him in the river, and had his sister watch. Pharaoh's daughter found him, and Moses' own mother ended up being paid to nurse him.",
+      "verses": [
+        {
+          "ref": "Isaiah 40:11",
+          "text": "He will feed his flock like a shepherd. He will gather the lambs in his arm, and carry them in his bosom. He will gently lead those who have their young.",
+          "check": "955b0c7a4e6ddec2"
+        }
+      ]
+    },
+    {
+      "id": "thomas-doubt",
+      "title": "Thomas wants proof",
+      "ref": "John 20:24 to 29",
+      "tags": [
+        "doubt",
+        "faith",
+        "questions",
+        "skeptical",
+        "struggling to believe"
+      ],
+      "story": "Thomas wasn't there when the risen Jesus first appeared, and he said he wouldn't believe without seeing the wounds himself. A week later Jesus came back, went straight to Thomas, and offered exactly what he asked for. No shame, just an invitation.",
+      "verses": [
+        {
+          "ref": "John 20:27",
+          "text": "Then he said to Thomas, “Reach here your finger, and see my hands. Reach here your hand, and put it into my side. Don’t be unbelieving, but believing.”",
+          "check": "ef0a7d39df224886"
+        },
+        {
+          "ref": "Mark 9:24",
+          "text": "Immediately the father of the child cried out with tears, “I believe. Help my unbelief!”",
+          "check": "9fc61e2880c41239"
+        }
+      ]
+    },
+    {
+      "id": "noah-waiting",
+      "title": "Noah waits out the flood",
+      "ref": "Genesis 6 to 8",
+      "tags": [
+        "waiting",
+        "isolated",
+        "stuck inside",
+        "long season",
+        "storm",
+        "patience"
+      ],
+      "story": "Noah built the ark when there wasn't a cloud in the sky, while people mocked him. Then he and his family were shut inside for over a year while the flood covered everything. It was long, cramped and uncertain. But God did not forget them, and the waters went down.",
+      "verses": [
+        {
+          "ref": "Genesis 8:1",
+          "text": "God remembered Noah, all the animals, and all the livestock that were with him in the ship; and God made a wind to pass over the earth. The waters subsided.",
+          "check": "2cdb9c30d670dde3"
+        }
+      ]
+    },
+    {
+      "id": "sarah-laughed",
+      "title": "Sarah laughs at the promise",
+      "ref": "Genesis 18; 21",
+      "tags": [
+        "too late",
+        "impossible",
+        "aging",
+        "given up",
+        "hopeless",
+        "dream"
+      ],
+      "story": "God promised Abraham and Sarah a son, but they waited until they were far too old. When Sarah overheard the promise again, she laughed to herself. It sounded impossible. A year later she held her son Isaac, whose name means laughter.",
+      "verses": [
+        {
+          "ref": "Genesis 18:14",
+          "text": "Is anything too hard for Yahweh? At the set time I will return to you, when the season comes round, and Sarah will have a son.”",
+          "check": "8c5e1842b709a03a"
+        }
+      ]
+    },
+    {
+      "id": "hagar-seen",
+      "title": "Hagar, the God who sees",
+      "ref": "Genesis 16; 21",
+      "tags": [
+        "unseen",
+        "mistreated",
+        "single parent",
+        "alone",
+        "rejected",
+        "invisible"
+      ],
+      "story": "Hagar was a servant who was used and then mistreated, so she ran into the desert alone. By a spring of water, God met her there. She became the only person in scripture to give God a name: the God who sees me.",
+      "verses": [
+        {
+          "ref": "Genesis 16:13",
+          "text": "She called the name of Yahweh who spoke to her, “You are a God who sees,” for she said, “Have I even stayed alive after seeing him?”",
+          "check": "ea747bc19800954b"
+        }
+      ]
+    },
+    {
+      "id": "leah-unloved",
+      "title": "Leah, the unloved wife",
+      "ref": "Genesis 29",
+      "tags": [
+        "unloved",
+        "compared",
+        "marriage",
+        "rejected",
+        "not chosen",
+        "jealous"
+      ],
+      "story": "Jacob loved Leah's sister Rachel and was tricked into marrying Leah first. Leah spent years hoping her husband would finally love her. With each son she named, you can hear her longing. By the fourth, she shifted her focus and said, this time I will praise the Lord. That son, Judah, became the line of King David and Jesus.",
+      "verses": [
+        {
+          "ref": "Genesis 29:35",
+          "text": "She conceived again, and bore a son. She said, “This time will I praise Yahweh.” Therefore she named him Judah. Then she stopped bearing.",
+          "check": "299848d42a2abfa1"
+        }
+      ]
+    },
+    {
+      "id": "esther-courage",
+      "title": "Esther speaks up",
+      "ref": "Esther 4 to 7",
+      "tags": [
+        "speak up",
+        "risk",
+        "courage",
+        "purpose",
+        "confrontation",
+        "injustice"
+      ],
+      "story": "Esther was a young Jewish woman who became queen, keeping her background secret. When a law was passed to wipe out her people, going to the king uninvited could cost her life. Her cousin told her maybe she was there for such a time as this. She fasted, then walked in anyway.",
+      "verses": [
+        {
+          "ref": "Esther 4:14",
+          "text": "For if you remain silent now, then relief and deliverance will come to the Jews from another place, but you and your father’s house will perish. Who knows if you haven’t come to the kingdom for such a time as this?”",
+          "check": "a18971d28b228b48"
+        }
+      ]
+    },
+    {
+      "id": "daniel-lions",
+      "title": "Daniel in the lions' den",
+      "ref": "Daniel 6",
+      "tags": [
+        "coworkers",
+        "set up",
+        "pressure",
+        "integrity",
+        "targeted",
+        "workplace"
+      ],
+      "story": "Daniel did his job so well that jealous officials looked for dirt on him and found none. So they tricked the king into a law against prayer, knowing Daniel would keep praying. He did, and was thrown to the lions. In the morning he walked out unharmed.",
+      "verses": [
+        {
+          "ref": "Daniel 6:22",
+          "text": "My God has sent his angel, and has shut the lions’ mouths, and they have not hurt me; because as before him innocence was found in me; and also before you, O king, I have done no harm.”",
+          "check": "c4da217252fe22b8"
+        }
+      ]
+    },
+    {
+      "id": "fiery-furnace",
+      "title": "Three friends and the furnace",
+      "ref": "Daniel 3",
+      "tags": [
+        "peer pressure",
+        "stand firm",
+        "compromise",
+        "fitting in",
+        "values",
+        "pressure"
+      ],
+      "story": "Shadrach, Meshach and Abednego refused to bow to the king's golden statue, even under threat of a blazing furnace. They said God could save them, and even if he didn't, they still wouldn't bow. They were thrown in, and the king saw a fourth figure walking with them in the fire.",
+      "verses": [
+        {
+          "ref": "Daniel 3:17-18",
+          "text": "If it happens, our God whom we serve is able to deliver us from the burning fiery furnace; and he will deliver us out of your hand, O king. But if not, let it be known to you, O king, that we will not serve your gods or worship the golden image which you have set up.”",
+          "check": "79093e0155651a7f"
+        }
+      ]
+    },
+    {
+      "id": "nehemiah-rebuild",
+      "title": "Nehemiah rebuilds the wall",
+      "ref": "Nehemiah 1 to 8",
+      "tags": [
+        "rebuilding",
+        "starting over",
+        "big project",
+        "opposition",
+        "critics",
+        "ruins"
+      ],
+      "story": "Nehemiah heard that Jerusalem's walls were still in ruins and wept. He got permission to go rebuild, organized the people, and kept working while critics mocked and threatened them. They finished the wall in just 52 days.",
+      "verses": [
+        {
+          "ref": "Nehemiah 8:10",
+          "text": "Then he said to them, “Go your way. Eat the fat, drink the sweet, and send portions to him for whom nothing is prepared, for today is holy to our Lord. Don’t be grieved, for the joy of Yahweh is your strength.”",
+          "check": "30302915cbe02109"
+        }
+      ]
+    },
+    {
+      "id": "naomi-bitter",
+      "title": "Naomi says call me bitter",
+      "ref": "Ruth 1; 4",
+      "tags": [
+        "bitter",
+        "angry at god",
+        "grief",
+        "empty",
+        "loss",
+        "resentment"
+      ],
+      "story": "Naomi lost her husband and both sons in a foreign land. When she came home, she told people not to call her Naomi, which means pleasant, but Mara, which means bitter. God didn't reject her honesty. Through Ruth, her life was filled again, and she ended up holding a grandson.",
+      "verses": [
+        {
+          "ref": "Ruth 1:20",
+          "text": "She said to them, “Don’t call me Naomi. Call me Mara; for the Almighty has dealt very bitterly with me.",
+          "check": "0ae0cdc458dd6a5b"
+        },
+        {
+          "ref": "Psalm 30:5",
+          "text": "For his anger is but for a moment. His favor is for a lifetime. Weeping may stay for the night, but joy comes in the morning.",
+          "check": "ec2ee734889c6cde"
+        }
+      ]
+    },
+    {
+      "id": "bleeding-woman",
+      "title": "The woman who touched his cloak",
+      "ref": "Mark 5:25 to 34",
+      "tags": [
+        "chronic illness",
+        "sick",
+        "long struggle",
+        "desperate",
+        "doctors",
+        "isolated"
+      ],
+      "story": "A woman had been sick for twelve years. She spent everything on doctors and only got worse, and her condition left her cut off from others. She pushed through a crowd just to touch the edge of Jesus' cloak. He stopped everything to find her and called her daughter.",
+      "verses": [
+        {
+          "ref": "Mark 5:34",
+          "text": "He said to her, “Daughter, your faith has made you well. Go in peace, and be cured of your disease.”",
+          "check": "9eda60bfe62167f5"
+        }
+      ]
+    },
+    {
+      "id": "bartimaeus",
+      "title": "Bartimaeus won't be quiet",
+      "ref": "Mark 10:46 to 52",
+      "tags": [
+        "ignored",
+        "told to be quiet",
+        "overlooked",
+        "persistence",
+        "unheard"
+      ],
+      "story": "Bartimaeus was a blind man begging by the road. When he heard Jesus was passing, he shouted for him. The crowd told him to be quiet, so he shouted louder. Jesus stopped, called him over, and asked what he wanted.",
+      "verses": [
+        {
+          "ref": "Mark 10:51",
+          "text": "Jesus asked him, “What do you want me to do for you?” The blind man said to him, “Rabboni, that I may see again.”",
+          "check": "a86b106a051a3b27"
+        }
+      ]
+    },
+    {
+      "id": "paul-pressed",
+      "title": "Paul, pressed but not crushed",
+      "ref": "2 Corinthians 4; 11",
+      "tags": [
+        "hard season",
+        "struggling",
+        "beat down",
+        "keep going",
+        "pressure",
+        "setbacks"
+      ],
+      "story": "Paul was beaten, shipwrecked, jailed, hungry and sleepless during his travels. Writing to friends in Corinth, he didn't pretend it was easy. He said he was hard pressed on every side, but never crushed, and never abandoned.",
+      "verses": [
+        {
+          "ref": "2 Corinthians 4:8-9",
+          "text": "We are pressed on every side, yet not crushed; perplexed, yet not to despair; pursued, yet not forsaken; struck down, yet not destroyed;",
+          "check": "2e85dd02ec48e0e1"
+        }
+      ]
+    },
+    {
+      "id": "paul-past",
+      "title": "Saul becomes Paul",
+      "ref": "Acts 9",
+      "tags": [
+        "past",
+        "who i used to be",
+        "changed",
+        "mistakes",
+        "new start",
+        "reputation"
+      ],
+      "story": "Saul hunted down and jailed Christians. On the road to Damascus, a blinding light stopped him, and Jesus spoke to him. Saul was changed. People were afraid of him at first because of his past, but he became Paul, who wrote much of the New Testament.",
+      "verses": [
+        {
+          "ref": "2 Corinthians 5:17",
+          "text": "Therefore if anyone is in Christ, he is a new creation. The old things have passed away. Behold, all things have become new.",
+          "check": "d98e947030632691"
+        }
+      ]
+    },
+    {
+      "id": "paul-silas-midnight",
+      "title": "Paul and Silas sing at midnight",
+      "ref": "Acts 16:16 to 34",
+      "tags": [
+        "treated unfairly",
+        "jail",
+        "worship",
+        "dark time",
+        "attitude"
+      ],
+      "story": "Paul and Silas were beaten and locked in stocks for helping a girl. Instead of despairing, at midnight they prayed and sang while the other prisoners listened. An earthquake opened the doors, and the jailer and his whole family came to faith that night.",
+      "verses": [
+        {
+          "ref": "Acts 16:25",
+          "text": "But about midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them.",
+          "check": "90dc85f4367997ab"
+        }
+      ]
+    },
+    {
+      "id": "mary-unexpected",
+      "title": "Mary hears unexpected news",
+      "ref": "Luke 1:26 to 38",
+      "tags": [
+        "unexpected",
+        "pregnant",
+        "plans changed",
+        "surprised",
+        "scared",
+        "young"
+      ],
+      "story": "Mary was a young engaged woman when an angel told her she would have a son. It would upend her plans and her reputation. She asked honest questions, then said yes.",
+      "verses": [
+        {
+          "ref": "Luke 1:38",
+          "text": "Mary said, “Behold, the servant of the Lord; let it be done to me according to your word.” The angel departed from her.",
+          "check": "5470c3d93a618ac7"
+        }
+      ]
+    },
+    {
+      "id": "woman-caught",
+      "title": "The woman they wanted to stone",
+      "ref": "John 8:1 to 11",
+      "tags": [
+        "judged",
+        "public shame",
+        "exposed",
+        "condemned",
+        "gossip",
+        "caught"
+      ],
+      "story": "Religious leaders dragged a woman before Jesus, caught in adultery, and demanded she be stoned. Jesus said whoever had no sin could throw the first stone. One by one they walked away. He told her he didn't condemn her and to go and live differently.",
+      "verses": [
+        {
+          "ref": "John 8:11",
+          "text": "She said, “No one, Lord.” Jesus said, “Neither do I condemn you. Go your way. From now on, sin no more.”",
+          "check": "37dad87a40c6c70d"
+        }
+      ]
+    },
+    {
+      "id": "loaves-fishes",
+      "title": "Five loaves and two fish",
+      "ref": "John 6:1 to 14",
+      "tags": [
+        "not enough",
+        "scarcity",
+        "small",
+        "limited",
+        "provide",
+        "insufficient"
+      ],
+      "story": "Over five thousand people were hungry and the disciples had no way to feed them. A boy offered his small lunch of five loaves and two fish. It seemed pointless. Jesus gave thanks, and everyone ate with twelve baskets left over.",
+      "verses": [
+        {
+          "ref": "John 6:9",
+          "text": "“There is a boy here who has five barley loaves and two fish, but what are these among so many?”",
+          "check": "4ac66a7604e2b233"
+        }
+      ]
+    },
+    {
+      "id": "jesus-children",
+      "title": "Jesus welcomes the children",
+      "ref": "Mark 10:13 to 16",
+      "tags": [
+        "unimportant",
+        "brushed off",
+        "small",
+        "not wanted",
+        "kids"
+      ],
+      "story": "Parents brought children to Jesus and the disciples tried to send them away as a waste of his time. Jesus was upset with the disciples, not the kids. He welcomed the children, took them in his arms, and blessed them.",
+      "verses": [
+        {
+          "ref": "Mark 10:14",
+          "text": "But when Jesus saw it, he was moved with indignation, and said to them, “Allow the little children to come to me! Don’t forbid them, for God’s Kingdom belongs to such as these.",
+          "check": "edd70bb174f0156a"
+        }
+      ]
+    },
+    {
+      "id": "lost-sheep",
+      "title": "The one lost sheep",
+      "ref": "Luke 15:1 to 7",
+      "tags": [
+        "wandered",
+        "drifted",
+        "far from god",
+        "lost",
+        "faith",
+        "stopped going to church"
+      ],
+      "story": "Jesus told of a shepherd with a hundred sheep who lost one. He left the ninety nine to search until he found it, then carried it home on his shoulders and threw a celebration.",
+      "verses": [
+        {
+          "ref": "Luke 15:4",
+          "text": "“Which of you men, if you had one hundred sheep, and lost one of them, wouldn’t leave the ninety-nine in the wilderness, and go after the one that was lost, until he found it?",
+          "check": "005c16609aee5284"
+        }
+      ]
+    },
+    {
+      "id": "manna-daily",
+      "title": "Manna in the wilderness",
+      "ref": "Exodus 16",
+      "tags": [
+        "one day at a time",
+        "provision",
+        "daily needs",
+        "trust",
+        "future"
+      ],
+      "story": "In the desert, Israel had no food, and God sent manna each morning. They could only gather enough for that day. If they hoarded it, it spoiled. They learned to trust God one day at a time.",
+      "verses": [
+        {
+          "ref": "Matthew 6:11",
+          "text": "Give us today our daily bread.",
+          "check": "bc7aa0610dc2b004"
+        }
+      ]
+    },
+    {
+      "id": "joshua-new-leader",
+      "title": "Joshua steps into Moses' shoes",
+      "ref": "Deuteronomy 31; Joshua 1",
+      "tags": [
+        "new leader",
+        "promotion",
+        "big shoes",
+        "responsibility",
+        "pressure",
+        "new role"
+      ],
+      "story": "After Moses died, Joshua had to lead a whole nation into a land full of walled cities. He was following a legend. God told him again and again to be strong and courageous, and promised to go ahead of him.",
+      "verses": [
+        {
+          "ref": "Deuteronomy 31:8",
+          "text": "Yahweh himself is who goes before you. He will be with you. He will not fail you nor forsake you. Don’t be afraid. Don’t be discouraged.”",
+          "check": "8c930667acb4d6c4"
+        }
+      ]
+    },
+    {
+      "id": "jeremiah-exiles",
+      "title": "A letter to people stuck in exile",
+      "ref": "Jeremiah 29",
+      "tags": [
+        "stuck",
+        "somewhere i don't want to be",
+        "waiting",
+        "hope",
+        "future",
+        "plans"
+      ],
+      "story": "God's people were carried off to Babylon and wanted out fast. Jeremiah sent them a letter saying to build houses, plant gardens and seek the good of the city, because it would be seventy years. In that same letter God promised a hope and a future.",
+      "verses": [
+        {
+          "ref": "Jeremiah 29:11",
+          "text": "For I know the thoughts that I think toward you,” says Yahweh, “thoughts of peace, and not of evil, to give you hope and a future.",
+          "check": "78c0142b8a7ea2a8"
+        }
+      ]
+    },
+    {
+      "id": "solomon-wisdom",
+      "title": "Solomon asks for wisdom",
+      "ref": "1 Kings 3",
+      "tags": [
+        "big decision",
+        "confused",
+        "what to do",
+        "wisdom",
+        "choice",
+        "guidance"
+      ],
+      "story": "When Solomon became king, he felt like a little child who didn't know what he was doing. God offered him anything. He didn't ask for money or long life. He asked for wisdom to lead well, and God gave it generously.",
+      "verses": [
+        {
+          "ref": "James 1:5",
+          "text": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach; and it will be given to him.",
+          "check": "cf5657cf7cb6f75d"
+        }
+      ]
+    },
+    {
+      "id": "older-brother",
+      "title": "The older brother's resentment",
+      "ref": "Luke 15:25 to 32",
+      "tags": [
+        "resentful",
+        "unappreciated",
+        "unfair",
+        "jealous",
+        "overlooked",
+        "taken for granted"
+      ],
+      "story": "When the younger son came home and got a party, his older brother refused to go in. He had worked faithfully for years and never got a celebration. The father went outside to him too, and reminded him that everything he had was already his.",
+      "verses": [
+        {
+          "ref": "Luke 15:31",
+          "text": "“He said to him, ‘Son, you are always with me, and all that is mine is yours.",
+          "check": "d27945b3cc446893"
+        }
+      ]
+    },
+    {
+      "id": "david-absalom",
+      "title": "David grieves his son",
+      "ref": "2 Samuel 15 to 18",
+      "tags": [
+        "child",
+        "kid making bad choices",
+        "rebellious",
+        "parent",
+        "heartbroken",
+        "estranged child"
+      ],
+      "story": "David's son Absalom turned against him and tried to take his throne. Even then, David told his soldiers to be gentle with him. When Absalom died, David didn't celebrate his victory. He wept as a father.",
+      "verses": [
+        {
+          "ref": "2 Samuel 18:33",
+          "text": "The king was much moved, and went up to the room over the gate, and wept. As he went, he said, “My son Absalom! My son, my son Absalom! I wish I had died for you, Absalom, my son, my son!”",
+          "check": "519780cda268ecbb"
+        }
+      ]
+    },
+    {
+      "id": "paul-barnabas",
+      "title": "Paul and Barnabas split up",
+      "ref": "Acts 15:36 to 41; 2 Timothy 4:11",
+      "tags": [
+        "friendship ended",
+        "falling out",
+        "argument",
+        "partner",
+        "coworker conflict"
+      ],
+      "story": "Paul and Barnabas were close ministry partners until they argued so sharply over a young man named Mark that they went separate ways. Years later, Paul wrote asking for Mark to come because he was useful to him. Broken relationships can heal.",
+      "verses": [
+        {
+          "ref": "2 Timothy 4:11",
+          "text": "Only Luke is with me. Take Mark, and bring him with you, for he is useful to me for service.",
+          "check": "a57c6db6a1fdf92c"
+        }
+      ]
+    },
+    {
+      "id": "elisha-servant",
+      "title": "Elisha's servant sees the army",
+      "ref": "2 Kings 6:8 to 17",
+      "tags": [
+        "outnumbered",
+        "surrounded",
+        "fear",
+        "odds",
+        "attacked",
+        "panic"
+      ],
+      "story": "Elisha's servant woke up to see an enemy army surrounding their city and panicked. Elisha calmly told him not to be afraid, then prayed for his eyes to be opened. The servant saw the hills full of horses and chariots of fire around them.",
+      "verses": [
+        {
+          "ref": "2 Kings 6:16",
+          "text": "He answered, “Don’t be afraid; for those who are with us are more than those who are with them.”",
+          "check": "05367b1f801ee289"
+        }
+      ]
+    },
+    {
+      "id": "jesus-tempted",
+      "title": "Jesus tempted in the wilderness",
+      "ref": "Matthew 4:1 to 11",
+      "tags": [
+        "temptation",
+        "addiction",
+        "struggle",
+        "habit",
+        "weak moment",
+        "resist"
+      ],
+      "story": "After forty days of fasting, Jesus was hungry and exhausted when the devil came to tempt him. Each time, Jesus answered with scripture. He knows what temptation feels like from the inside.",
+      "verses": [
+        {
+          "ref": "1 Corinthians 10:13",
+          "text": "No temptation has taken you except what is common to man. God is faithful, who will not allow you to be tempted above what you are able, but will with the temptation also make the way of escape, that you may be able to endure it.",
+          "check": "6ce453b9325c74b0"
+        }
+      ]
+    },
+    {
+      "id": "emmaus-road",
+      "title": "The road to Emmaus",
+      "ref": "Luke 24:13 to 35",
+      "tags": [
+        "disappointed",
+        "hopes crushed",
+        "plans fell through",
+        "discouraged",
+        "let down"
+      ],
+      "story": "Two followers of Jesus walked home after the crucifixion, crushed that their hopes were gone. A stranger joined them and explained the scriptures as they walked. Only when he broke bread with them did they realize it was Jesus, who had been with them the whole way.",
+      "verses": [
+        {
+          "ref": "Luke 24:32",
+          "text": "They said to one another, “Weren’t our hearts burning within us, while he spoke to us along the way, and while he opened the Scriptures to us?”",
+          "check": "42597bc28bc75287"
+        }
+      ]
+    },
+    {
+      "id": "empty-nets",
+      "title": "Fishing all night with nothing",
+      "ref": "Luke 5:1 to 11",
+      "tags": [
+        "no results",
+        "working hard",
+        "nothing to show",
+        "job search",
+        "effort wasted",
+        "frustrated"
+      ],
+      "story": "Peter and his partners fished all night and caught nothing. Jesus told them to go back out and try again. Peter was tired and skeptical but did it anyway. The nets filled so full they started to tear.",
+      "verses": [
+        {
+          "ref": "Luke 5:5",
+          "text": "Simon answered him, “Master, we worked all night, and took nothing; but at your word I will let down the net.”",
+          "check": "12239be97ce5709c"
+        }
+      ]
+    },
+    {
+      "id": "adam-eve-hiding",
+      "title": "Adam and Eve hide",
+      "ref": "Genesis 3",
+      "tags": [
+        "hiding",
+        "shame",
+        "caught",
+        "guilty",
+        "blame",
+        "avoiding god"
+      ],
+      "story": "After Adam and Eve ate the fruit God told them not to, they felt ashamed and hid among the trees. They started blaming each other. God came looking for them anyway and called out, asking where they were. Even with consequences, he clothed them before they left the garden.",
+      "verses": [
+        {
+          "ref": "Genesis 3:9",
+          "text": "Yahweh God called to the man, and said to him, “Where are you?”",
+          "check": "21c14814b10ac4b0"
+        }
+      ]
+    },
+    {
+      "id": "cain-anger",
+      "title": "Cain's anger at his brother",
+      "ref": "Genesis 4:1 to 16",
+      "tags": [
+        "anger",
+        "jealous of sibling",
+        "rage",
+        "resentment",
+        "bitterness",
+        "comparison"
+      ],
+      "story": "Cain was angry and jealous because God accepted his brother Abel's offering and not his. Before Cain acted, God came to him and warned him that anger was crouching at the door, but he could master it. Cain didn't listen, and his anger cost him everything.",
+      "verses": [
+        {
+          "ref": "Genesis 4:7",
+          "text": "If you do well, won’t it be lifted up? If you don’t do well, sin crouches at the door. Its desire is for you, but you are to rule over it.”",
+          "check": "3285cbd41eee02e1"
+        }
+      ]
+    },
+    {
+      "id": "jacob-wrestling",
+      "title": "Jacob wrestles with God",
+      "ref": "Genesis 32:22 to 32",
+      "tags": [
+        "struggling",
+        "wrestling with god",
+        "sleepless",
+        "night",
+        "fear of facing someone",
+        "faith struggle"
+      ],
+      "story": "The night before facing the brother he had wronged, Jacob was alone and afraid. A man wrestled with him until daybreak. Jacob refused to let go until he was blessed. He walked away limping, with a new name, Israel, meaning one who struggles with God.",
+      "verses": [
+        {
+          "ref": "Genesis 32:26",
+          "text": "The man said, “Let me go, for the day breaks.” Jacob said, “I won’t let you go, unless you bless me.”",
+          "check": "f6c01e46ebacab5a"
+        }
+      ]
+    },
+    {
+      "id": "joseph-potiphar",
+      "title": "Joseph falsely accused",
+      "ref": "Genesis 39",
+      "tags": [
+        "falsely accused",
+        "lied about",
+        "integrity",
+        "temptation",
+        "unfair",
+        "reputation ruined"
+      ],
+      "story": "Joseph worked his way up in Potiphar's house. When Potiphar's wife tried to seduce him, he refused and ran. She lied and said he attacked her, and he was thrown in prison. Even there, God was with him and he was put in charge.",
+      "verses": [
+        {
+          "ref": "Genesis 39:23",
+          "text": "The keeper of the prison didn’t look after anything that was under his hand, because Yahweh was with him; and that which he did, Yahweh made it prosper.",
+          "check": "720633619c3e8b5d"
+        }
+      ]
+    },
+    {
+      "id": "red-sea",
+      "title": "Trapped at the Red Sea",
+      "ref": "Exodus 14",
+      "tags": [
+        "trapped",
+        "no way out",
+        "cornered",
+        "panic",
+        "impossible situation",
+        "dead end"
+      ],
+      "story": "Israel had just escaped Egypt when they found themselves trapped with the sea in front and Pharaoh's army behind. The people panicked. Moses told them to stand still and watch. God split the sea, and they walked through on dry ground.",
+      "verses": [
+        {
+          "ref": "Exodus 14:14",
+          "text": "Yahweh will fight for you, and you shall be still.”",
+          "check": "1573fb54e3f3d39e"
+        }
+      ]
+    },
+    {
+      "id": "moses-jethro",
+      "title": "Moses tries to do it all",
+      "ref": "Exodus 18",
+      "tags": [
+        "doing everything alone",
+        "overwhelmed",
+        "delegate",
+        "leader",
+        "burnout",
+        "asking for help"
+      ],
+      "story": "Moses sat from morning to evening settling every problem for the whole nation by himself. His father in law Jethro watched and told him this wasn't good, he would wear himself out. He helped Moses share the load with other capable people.",
+      "verses": [
+        {
+          "ref": "Exodus 18:18",
+          "text": "You will surely wear away, both you, and this people that is with you; for the thing is too heavy for you. You are not able to perform it yourself alone.",
+          "check": "6ef7a1a1c849145d"
+        }
+      ]
+    },
+    {
+      "id": "aaron-hur",
+      "title": "Aaron and Hur hold up Moses' arms",
+      "ref": "Exodus 17:8 to 13",
+      "tags": [
+        "need support",
+        "tired",
+        "can't do it alone",
+        "friends",
+        "community",
+        "weak"
+      ],
+      "story": "During a battle, Israel won as long as Moses held his arms up. But his arms got tired. His friends Aaron and Hur sat him on a rock and held his arms up, one on each side, until sunset. They won together.",
+      "verses": [
+        {
+          "ref": "Exodus 17:12",
+          "text": "But Moses’ hands were heavy; and they took a stone, and put it under him, and he sat on it. Aaron and Hur held up his hands, the one on the one side, and the other on the other side. His hands were steady until sunset.",
+          "check": "6d59b22c88ac3ea2"
+        }
+      ]
+    },
+    {
+      "id": "moses-temper",
+      "title": "Moses loses his temper",
+      "ref": "Numbers 20:1 to 13",
+      "tags": [
+        "temper",
+        "lost my cool",
+        "snapped",
+        "yelled",
+        "anger",
+        "regret what i said"
+      ],
+      "story": "After years of complaints, the people grumbled again about water. Moses was told to speak to a rock, but in frustration he yelled at the people and struck it twice. Water still came out, but his outburst had real consequences. Even great leaders lose their cool.",
+      "verses": [
+        {
+          "ref": "James 1:19-20",
+          "text": "So, then, my beloved brothers, let every man be swift to hear, slow to speak, and slow to anger; for the anger of man doesn’t produce the righteousness of God.",
+          "check": "a4954ebdb1fa4ae2"
+        }
+      ]
+    },
+    {
+      "id": "caleb-age",
+      "title": "Caleb at 85",
+      "ref": "Numbers 13 to 14; Joshua 14",
+      "tags": [
+        "getting older",
+        "age",
+        "retired",
+        "too old",
+        "purpose",
+        "still have more"
+      ],
+      "story": "Caleb was one of only two scouts who trusted God when the others were afraid. He waited forty five years for his promise. At 85, he asked for the hardest hill country, saying he was as strong as the day he started.",
+      "verses": [
+        {
+          "ref": "Joshua 14:11",
+          "text": "As yet I am as strong today as I was in the day that Moses sent me. As my strength was then, even so is my strength now for war, to go out and to come in.",
+          "check": "a03ef29018ce4fda"
+        }
+      ]
+    },
+    {
+      "id": "rahab",
+      "title": "Rahab takes a risk",
+      "ref": "Joshua 2; 6",
+      "tags": [
+        "past",
+        "reputation",
+        "outsider",
+        "fresh start",
+        "risk",
+        "not religious"
+      ],
+      "story": "Rahab was a prostitute in Jericho with a reputation everyone knew. When Israelite spies came, she hid them at great risk to herself. She and her family were saved, and she became part of the family line of King David and Jesus.",
+      "verses": [
+        {
+          "ref": "Hebrews 11:31",
+          "text": "By faith, Rahab the prostitute, didn’t perish with those who were disobedient, having received the spies in peace.",
+          "check": "5f51fc9d333a955d"
+        }
+      ]
+    },
+    {
+      "id": "deborah-leads",
+      "title": "Deborah leads when others hesitate",
+      "ref": "Judges 4 to 5",
+      "tags": [
+        "leading",
+        "step up",
+        "others hesitate",
+        "woman leader",
+        "confidence",
+        "encourage"
+      ],
+      "story": "Deborah was a judge and prophet leading Israel. When she told the commander Barak that God would give him victory, he wouldn't go unless she went too. She went, and encouraged him at the key moment that God had already gone ahead of them.",
+      "verses": [
+        {
+          "ref": "Judges 4:14",
+          "text": "Deborah said to Barak, “Go; for this is the day in which Yahweh has delivered Sisera into your hand. Hasn’t Yahweh gone out before you?” So Barak went down from Mount Tabor, and ten thousand men after him.",
+          "check": "bf708fef55717d5d"
+        }
+      ]
+    },
+    {
+      "id": "samuel-listening",
+      "title": "Young Samuel hears his name",
+      "ref": "1 Samuel 3",
+      "tags": [
+        "calling",
+        "what should i do",
+        "hearing god",
+        "purpose",
+        "young",
+        "direction"
+      ],
+      "story": "Samuel was a boy serving in the temple when he heard someone call his name in the night. Three times he ran to the priest Eli, thinking it was him. Eli realized it was God and told Samuel to answer, speak, your servant is listening.",
+      "verses": [
+        {
+          "ref": "1 Samuel 3:10",
+          "text": "Yahweh came, and stood, and called as at other times, “Samuel! Samuel!” Then Samuel said, “Speak; for your servant hears.”",
+          "check": "afa78a843fa7f15d"
+        }
+      ]
+    },
+    {
+      "id": "david-anointed",
+      "title": "David, the son no one invited",
+      "ref": "1 Samuel 16",
+      "tags": [
+        "overlooked",
+        "appearance",
+        "looks",
+        "passed over",
+        "not picked",
+        "insecure about body"
+      ],
+      "story": "Samuel came to anoint the next king from Jesse's sons. Jesse lined up seven of them and didn't even call David, the youngest, in from the fields. God rejected each tall, impressive son. He chose the one no one thought to invite.",
+      "verses": [
+        {
+          "ref": "1 Samuel 16:7",
+          "text": "But Yahweh said to Samuel, “Don’t look on his face, or on the height of his stature, because I have rejected him; for I don’t see as man sees. For man looks at the outward appearance, but Yahweh looks at the heart.”",
+          "check": "a291c64e4a6c5e6d"
+        }
+      ]
+    },
+    {
+      "id": "david-jonathan",
+      "title": "David and Jonathan",
+      "ref": "1 Samuel 18 to 20",
+      "tags": [
+        "friendship",
+        "best friend",
+        "loyalty",
+        "losing a friend",
+        "missing someone",
+        "lonely"
+      ],
+      "story": "Jonathan was the king's son and should have been David's rival. Instead they became loyal friends. Jonathan protected David even from his own father. When they had to part, they wept together, and David never forgot him.",
+      "verses": [
+        {
+          "ref": "Proverbs 18:24",
+          "text": "A man of many companions may be ruined, but there is a friend who sticks closer than a brother.",
+          "check": "4bfc3fe6b673c37e"
+        }
+      ]
+    },
+    {
+      "id": "david-ziklag",
+      "title": "David at Ziklag",
+      "ref": "1 Samuel 30",
+      "tags": [
+        "lost everything",
+        "everyone against me",
+        "blamed",
+        "rock bottom",
+        "distressed",
+        "team turned on me"
+      ],
+      "story": "David and his men came home to find their town burned and their families taken. His own men were so grieved they talked about stoning him. At his lowest point, David found strength in God, then went and recovered everything.",
+      "verses": [
+        {
+          "ref": "1 Samuel 30:6",
+          "text": "David was greatly distressed; for the people spoke of stoning him, because the souls of all the people were grieved, every man for his sons and for his daughters; but David strengthened himself in Yahweh his God.",
+          "check": "e5f7c146ee661f34"
+        }
+      ]
+    },
+    {
+      "id": "mephibosheth",
+      "title": "Mephibosheth at the king's table",
+      "ref": "2 Samuel 9",
+      "tags": [
+        "disability",
+        "unworthy",
+        "forgotten",
+        "kindness",
+        "feel like a burden",
+        "outcast"
+      ],
+      "story": "Mephibosheth was Jonathan's son, disabled in both feet since childhood, living in a remote place. He called himself a dead dog. King David sought him out, gave back his family's land, and gave him a permanent seat at the royal table.",
+      "verses": [
+        {
+          "ref": "2 Samuel 9:7",
+          "text": "David said to him, “Don’t be afraid; for I will surely show you kindness for Jonathan your father’s sake, and will restore to you all the land of Saul your father. You will eat bread at my table continually.”",
+          "check": "5a819f25ed238c85"
+        }
+      ]
+    },
+    {
+      "id": "saul-jealousy",
+      "title": "Saul's jealousy",
+      "ref": "1 Samuel 18",
+      "tags": [
+        "jealousy",
+        "envy",
+        "comparison",
+        "someone else succeeding",
+        "insecure",
+        "threatened"
+      ],
+      "story": "When the women sang that Saul had killed thousands but David tens of thousands, King Saul was eaten up with jealousy. From that day he watched David with suspicion. His envy slowly consumed his peace and his reign.",
+      "verses": [
+        {
+          "ref": "Proverbs 14:30",
+          "text": "The life of the body is a heart at peace, but envy rots the bones.",
+          "check": "aa7830daf8f5ce0d"
+        }
+      ]
+    },
+    {
+      "id": "abigail",
+      "title": "Abigail the peacemaker",
+      "ref": "1 Samuel 25",
+      "tags": [
+        "difficult spouse",
+        "peacemaker",
+        "conflict",
+        "calm",
+        "in the middle",
+        "family drama"
+      ],
+      "story": "Abigail's husband Nabal insulted David and his men, and David set out for revenge. Abigail quickly gathered food, rode out, and humbly talked David down. Her wisdom stopped bloodshed and kept David from a decision he would regret.",
+      "verses": [
+        {
+          "ref": "Matthew 5:9",
+          "text": "Blessed are the peacemakers, for they shall be called children of God.",
+          "check": "109ba8bb20adbd5d"
+        }
+      ]
+    },
+    {
+      "id": "widow-zarephath",
+      "title": "The widow's last meal",
+      "ref": "1 Kings 17:8 to 16",
+      "tags": [
+        "last of my money",
+        "single mom",
+        "poverty",
+        "running out",
+        "provision",
+        "struggling to feed family"
+      ],
+      "story": "During a famine, a widow was gathering sticks to cook one last meal for herself and her son. Elijah asked her to make him bread first and promised her flour and oil would not run out. She trusted him, and they didn't, day after day.",
+      "verses": [
+        {
+          "ref": "1 Kings 17:16",
+          "text": "The jar of meal didn’t run out, and the jar of oil did not fail, according to Yahweh’s word, which he spoke by Elijah.",
+          "check": "1a5bff5c2a3283d2"
+        }
+      ]
+    },
+    {
+      "id": "elijah-whisper",
+      "title": "Elijah and the quiet whisper",
+      "ref": "1 Kings 19:9 to 13",
+      "tags": [
+        "god is silent",
+        "can't hear god",
+        "noise",
+        "quiet",
+        "looking for answers",
+        "prayer"
+      ],
+      "story": "Elijah stood on a mountain waiting for God. A powerful wind tore the rocks, then an earthquake, then a fire, but God wasn't in any of them. Then came a gentle whisper, and that was where God spoke.",
+      "verses": [
+        {
+          "ref": "1 Kings 19:12",
+          "text": "After the earthquake a fire passed; but Yahweh was not in the fire. After the fire, there was a still small voice.",
+          "check": "67ac335d1466fb53"
+        }
+      ]
+    },
+    {
+      "id": "widow-oil",
+      "title": "The widow and the jars of oil",
+      "ref": "2 Kings 4:1 to 7",
+      "tags": [
+        "debt",
+        "collectors",
+        "owe money",
+        "bills",
+        "financial stress",
+        "family at risk"
+      ],
+      "story": "A widow's creditors were coming to take her two sons as payment for debt. All she had was a little oil. Elisha told her to borrow every empty jar she could and start pouring. The oil kept flowing until the last jar was full, enough to pay the debt and live on.",
+      "verses": [
+        {
+          "ref": "2 Kings 4:7",
+          "text": "Then she came and told the man of God. He said, “Go, sell the oil, and pay your debt; and you and your sons live on the rest.”",
+          "check": "f60d22a50a136629"
+        }
+      ]
+    },
+    {
+      "id": "naaman",
+      "title": "Naaman and the muddy river",
+      "ref": "2 Kings 5",
+      "tags": [
+        "pride",
+        "ego",
+        "humble",
+        "expected something different",
+        "stubborn",
+        "advice"
+      ],
+      "story": "Naaman was a powerful army commander with a skin disease. Elisha told him to wash seven times in the Jordan River. Naaman was insulted, it was too simple and too muddy. His servants talked him into it, and he was healed.",
+      "verses": [
+        {
+          "ref": "2 Kings 5:14",
+          "text": "Then went he down, and dipped himself seven times in the Jordan, according to the saying of the man of God; and his flesh was restored like the flesh of a little child, and he was clean.",
+          "check": "c121406f17876746"
+        }
+      ]
+    },
+    {
+      "id": "hezekiah-prayer",
+      "title": "Hezekiah gets bad news",
+      "ref": "2 Kings 20:1 to 11",
+      "tags": [
+        "bad diagnosis",
+        "health scare",
+        "sick",
+        "hospital",
+        "tears",
+        "praying for healing"
+      ],
+      "story": "King Hezekiah was told he was going to die from his illness. He turned his face to the wall and prayed, weeping. Before the prophet even left the palace, God sent him back with a new message: I have heard your prayer and seen your tears.",
+      "verses": [
+        {
+          "ref": "2 Kings 20:5",
+          "text": "“Turn back, and tell Hezekiah the prince of my people, ‘Yahweh, the God of David your father, says, “I have heard your prayer. I have seen your tears. Behold, I will heal you. On the third day, you will go up to Yahweh’s house.",
+          "check": "2d4f16c3bc40e099"
+        }
+      ]
+    },
+    {
+      "id": "jehoshaphat",
+      "title": "Jehoshaphat doesn't know what to do",
+      "ref": "2 Chronicles 20",
+      "tags": [
+        "don't know what to do",
+        "outmatched",
+        "helpless",
+        "confused",
+        "prayer",
+        "fear"
+      ],
+      "story": "Three armies were marching on King Jehoshaphat, and he was afraid. He gathered the people and prayed honestly: we have no power against this, and we don't know what to do, but our eyes are on you. They sent singers out ahead of the army, and the enemy fell apart.",
+      "verses": [
+        {
+          "ref": "2 Chronicles 20:12",
+          "text": "Our God, will you not judge them? For we have no might against this great company that comes against us. We don’t know what to do, but our eyes are on you.”",
+          "check": "0e6d6faa8e9fa47e"
+        }
+      ]
+    },
+    {
+      "id": "psalm-42",
+      "title": "The psalmist talks to his own soul",
+      "ref": "Psalm 42",
+      "tags": [
+        "sad",
+        "down",
+        "depressed",
+        "discouraged",
+        "heavy",
+        "feel low"
+      ],
+      "story": "The writer of Psalm 42 was far from home, crying day and night while people asked where his God was. He remembered better days. Then he did something brave: he talked back to his own sadness and told his soul to hope in God.",
+      "verses": [
+        {
+          "ref": "Psalm 42:11",
+          "text": "Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him, the saving help of my countenance, and my God.",
+          "check": "d1f6749de73c3c50"
+        }
+      ]
+    },
+    {
+      "id": "isaiah-call",
+      "title": "Isaiah says here I am",
+      "ref": "Isaiah 6",
+      "tags": [
+        "unworthy",
+        "called",
+        "volunteer",
+        "purpose",
+        "not holy enough",
+        "new start"
+      ],
+      "story": "Isaiah saw a vision of God's glory and was overwhelmed by his own flaws. He said he was ruined. God cleansed him, then asked who would go for him. Isaiah, just forgiven, said, here I am, send me.",
+      "verses": [
+        {
+          "ref": "Isaiah 6:8",
+          "text": "I heard the Lord’s voice, saying, “Whom shall I send, and who will go for us?” Then I said, “Here I am. Send me!”",
+          "check": "11c8b50065498634"
+        }
+      ]
+    },
+    {
+      "id": "jeremiah-young",
+      "title": "Jeremiah says I'm too young",
+      "ref": "Jeremiah 1",
+      "tags": [
+        "too young",
+        "inexperienced",
+        "not ready",
+        "new job",
+        "doubt myself",
+        "calling"
+      ],
+      "story": "When God called Jeremiah to be a prophet, his first answer was that he was only a youth and didn't know how to speak. God told him not to say that, promised to be with him, and put his words in Jeremiah's mouth.",
+      "verses": [
+        {
+          "ref": "Jeremiah 1:7",
+          "text": "But Yahweh said to me, “Don’t say, ‘I am a child;’ for you must go to whomever I send you, and you must say whatever I command you.",
+          "check": "e543436306a5f909"
+        }
+      ]
+    },
+    {
+      "id": "jeremiah-potter",
+      "title": "The potter remakes the clay",
+      "ref": "Jeremiah 18:1 to 6",
+      "tags": [
+        "broken",
+        "ruined",
+        "start over",
+        "messed up",
+        "remade",
+        "failure"
+      ],
+      "story": "God sent Jeremiah to watch a potter at work. The pot the potter was making got spoiled in his hands. He didn't throw the clay away. He reshaped it into a new pot, and God said he could do the same with his people.",
+      "verses": [
+        {
+          "ref": "Jeremiah 18:4",
+          "text": "When the vessel that he made of the clay was marred in the hand of the potter, he made it again another vessel, as seemed good to the potter to make it.",
+          "check": "23fd7acfd3984fe5"
+        }
+      ]
+    },
+    {
+      "id": "dry-bones",
+      "title": "The valley of dry bones",
+      "ref": "Ezekiel 37:1 to 14",
+      "tags": [
+        "hopeless",
+        "dead inside",
+        "no hope",
+        "numb",
+        "lifeless",
+        "situation is dead"
+      ],
+      "story": "God showed Ezekiel a valley full of dry bones and asked if they could live. Ezekiel said only God knew. God told him to speak to the bones. They rattled together, grew muscle and skin, and breath came into them. They stood up as a great army.",
+      "verses": [
+        {
+          "ref": "Ezekiel 37:5",
+          "text": "Thus says the Lord Yahweh to these bones: “Behold, I will cause breath to enter into you, and you will live.",
+          "check": "73894d6ca4eb5870"
+        }
+      ]
+    },
+    {
+      "id": "habakkuk",
+      "title": "Habakkuk asks God why",
+      "ref": "Habakkuk 1 to 3",
+      "tags": [
+        "why",
+        "injustice",
+        "evil",
+        "news",
+        "world is broken",
+        "questions for god"
+      ],
+      "story": "Habakkuk looked at violence and injustice around him and asked God how long he would let it go on. He argued, waited, and listened. By the end, nothing around him had changed yet, but he decided he would still trust and rejoice in God.",
+      "verses": [
+        {
+          "ref": "Habakkuk 3:17-18",
+          "text": "For though the fig tree doesn’t flourish, nor fruit be in the vines; the labor of the olive fails, the fields yield no food; the flocks are cut off from the fold, and there is no herd in the stalls: yet I will rejoice in Yahweh. I will be joyful in the God of my salvation!",
+          "check": "86fa4a73b6752319"
+        }
+      ]
+    },
+    {
+      "id": "john-baptist-doubt",
+      "title": "John the Baptist doubts in prison",
+      "ref": "Matthew 11:1 to 11",
+      "tags": [
+        "doubt",
+        "prison",
+        "things didn't turn out",
+        "confused",
+        "faith shaken",
+        "disappointed"
+      ],
+      "story": "John the Baptist had boldly announced Jesus. Later, sitting in prison, he sent friends to ask Jesus if he was really the one. Jesus didn't scold him. He sent back evidence of what he was doing, then praised John to the crowd.",
+      "verses": [
+        {
+          "ref": "Matthew 11:3",
+          "text": "and said to him, “Are you he who comes, or should we look for another?”",
+          "check": "fbb04fbf49a37c6d"
+        }
+      ]
+    },
+    {
+      "id": "centurion",
+      "title": "The centurion's faith",
+      "ref": "Matthew 8:5 to 13",
+      "tags": [
+        "someone i love is sick",
+        "worried for someone",
+        "caretaker",
+        "faith",
+        "intercede"
+      ],
+      "story": "A Roman officer came to Jesus because his servant was paralyzed and suffering. When Jesus offered to come, the centurion said he wasn't worthy and asked Jesus to just say the word. Jesus was amazed at his faith, and the servant was healed that hour.",
+      "verses": [
+        {
+          "ref": "Matthew 8:8",
+          "text": "The centurion answered, “Lord, I’m not worthy for you to come under my roof. Just say the word, and my servant will be healed.",
+          "check": "4cd6a36c130e5e87"
+        }
+      ]
+    },
+    {
+      "id": "jairus",
+      "title": "Jairus and his daughter",
+      "ref": "Mark 5:21 to 43",
+      "tags": [
+        "sick child",
+        "kid in hospital",
+        "bad news",
+        "waiting",
+        "delay",
+        "parent fear"
+      ],
+      "story": "Jairus begged Jesus to come heal his dying daughter. On the way, Jesus stopped to help someone else, and messengers came saying it was too late. Jesus turned to Jairus and told him not to be afraid, only believe. He went to the house and raised the girl up.",
+      "verses": [
+        {
+          "ref": "Mark 5:36",
+          "text": "But Jesus, when he heard the message spoken, immediately said to the ruler of the synagogue, “Don’t be afraid, only believe.”",
+          "check": "bd7bf74c0ef18610"
+        }
+      ]
+    },
+    {
+      "id": "paralytic-friends",
+      "title": "Friends lower him through the roof",
+      "ref": "Mark 2:1 to 12",
+      "tags": [
+        "friends",
+        "can't get there myself",
+        "need help",
+        "carried",
+        "support",
+        "community"
+      ],
+      "story": "A paralyzed man's friends carried him to see Jesus, but the house was packed. So they climbed on the roof, dug a hole, and lowered him down. Jesus saw their faith, forgave the man, and healed him.",
+      "verses": [
+        {
+          "ref": "Mark 2:5",
+          "text": "Jesus, seeing their faith, said to the paralytic, “Son, your sins are forgiven you.”",
+          "check": "a836c6ef8d0d4b3c"
+        }
+      ]
+    },
+    {
+      "id": "man-at-pool",
+      "title": "The man by the pool for 38 years",
+      "ref": "John 5:1 to 9",
+      "tags": [
+        "stuck for years",
+        "no one helps",
+        "hopeless",
+        "chronic",
+        "left behind",
+        "waiting forever"
+      ],
+      "story": "A man had been disabled for 38 years, lying by a pool people believed could heal. Every time, someone else got there first, and no one helped him. Jesus asked if he wanted to get well, then told him to pick up his mat and walk. He did.",
+      "verses": [
+        {
+          "ref": "John 5:6-7",
+          "text": "When Jesus saw him lying there, and knew that he had been sick for a long time, he asked him, “Do you want to be made well?” The sick man answered him, “Sir, I have no one to put me into the pool when the water is stirred up, but while I’m coming, another steps down before me.”",
+          "check": "e659b7a4c925b139"
+        }
+      ]
+    },
+    {
+      "id": "leper-touched",
+      "title": "Jesus touches the leper",
+      "ref": "Mark 1:40 to 45",
+      "tags": [
+        "untouchable",
+        "isolated",
+        "lonely",
+        "rejected",
+        "nobody wants me",
+        "outcast"
+      ],
+      "story": "A man with leprosy was forced to live apart from everyone, and no one would touch him. He knelt before Jesus and said, if you are willing, you can make me clean. Jesus was moved with compassion, reached out, touched him, and healed him.",
+      "verses": [
+        {
+          "ref": "Mark 1:41",
+          "text": "Being moved with compassion, he stretched out his hand, and touched him, and said to him, “I want to. Be made clean.”",
+          "check": "efff62377083cdb3"
+        }
+      ]
+    },
+    {
+      "id": "widow-mite",
+      "title": "The widow's two coins",
+      "ref": "Mark 12:41 to 44",
+      "tags": [
+        "small",
+        "insignificant",
+        "can't give much",
+        "not enough",
+        "unnoticed",
+        "generous"
+      ],
+      "story": "Jesus watched people put money into the temple offering. The rich gave big amounts. Then a poor widow dropped in two tiny coins. Jesus told his disciples she gave more than anyone, because she gave all she had.",
+      "verses": [
+        {
+          "ref": "Mark 12:43",
+          "text": "He called his disciples to himself, and said to them, “Most certainly I tell you, this poor widow gave more than all those who are giving into the treasury,",
+          "check": "4b853ca49621c628"
+        }
+      ]
+    },
+    {
+      "id": "nicodemus",
+      "title": "Nicodemus comes at night",
+      "ref": "John 3:1 to 21",
+      "tags": [
+        "questions",
+        "curious",
+        "seeking",
+        "new to faith",
+        "skeptic",
+        "secret"
+      ],
+      "story": "Nicodemus was a respected religious leader with real questions about Jesus, so he came quietly at night. Jesus didn't turn him away. He talked with him honestly and told him how much God loved the world.",
+      "verses": [
+        {
+          "ref": "John 3:16",
+          "text": "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.",
+          "check": "8075c5b80bcc6711"
+        }
+      ]
+    },
+    {
+      "id": "woman-anoints",
+      "title": "The woman who washed his feet",
+      "ref": "Luke 7:36 to 50",
+      "tags": [
+        "forgiven",
+        "past",
+        "judged at church",
+        "shame",
+        "grateful",
+        "love"
+      ],
+      "story": "At a dinner party, a woman known for her sinful life came in, wept over Jesus' feet, dried them with her hair, and poured perfume on them. The host judged her. Jesus defended her and said her many sins were forgiven, because she loved much.",
+      "verses": [
+        {
+          "ref": "Luke 7:47",
+          "text": "Therefore I tell you, her sins, which are many, are forgiven, for she loved much. But to whom little is forgiven, the same loves little.”",
+          "check": "8629cedbc780544c"
+        }
+      ]
+    },
+    {
+      "id": "rich-young-ruler",
+      "title": "The rich young man",
+      "ref": "Mark 10:17 to 27",
+      "tags": [
+        "money",
+        "materialism",
+        "possessions",
+        "success",
+        "empty",
+        "something missing"
+      ],
+      "story": "A wealthy young man ran up to Jesus asking what he needed to do. He had kept the rules his whole life. Jesus looked at him with love and invited him to let go of his wealth and follow him. The man walked away sad, because he had much.",
+      "verses": [
+        {
+          "ref": "Mark 10:21",
+          "text": "Jesus looking at him loved him, and said to him, “One thing you lack. Go, sell whatever you have, and give to the poor, and you will have treasure in heaven; and come, follow me, taking up the cross.”",
+          "check": "e76403af369090fd"
+        }
+      ]
+    },
+    {
+      "id": "good-samaritan",
+      "title": "The good Samaritan",
+      "ref": "Luke 10:25 to 37",
+      "tags": [
+        "neighbor",
+        "different people",
+        "prejudice",
+        "helping",
+        "someone in need",
+        "compassion"
+      ],
+      "story": "Jesus told of a man beaten and left on the road. A priest and a temple worker walked past. Then a Samaritan, from a group the Jews looked down on, stopped, bandaged him, and paid for his care. Jesus said to go and do the same.",
+      "verses": [
+        {
+          "ref": "Luke 10:33",
+          "text": "But a certain Samaritan, as he traveled, came where he was. When he saw him, he was moved with compassion,",
+          "check": "e7a1b7f1c3cf3e56"
+        }
+      ]
+    },
+    {
+      "id": "seventy-times-seven",
+      "title": "How many times do I forgive",
+      "ref": "Matthew 18:21 to 35",
+      "tags": [
+        "forgive",
+        "keeps hurting me",
+        "can't forgive",
+        "grudge",
+        "again",
+        "family"
+      ],
+      "story": "Peter asked Jesus how many times he had to forgive someone, offering seven as generous. Jesus said seventy times seven, then told a story about a servant forgiven a huge debt who refused to forgive a small one.",
+      "verses": [
+        {
+          "ref": "Matthew 18:21-22",
+          "text": "Then Peter came and said to him, “Lord, how often shall my brother sin against me, and I forgive him? Until seven times?” Jesus said to him, “I don’t tell you until seven times, but, until seventy times seven.",
+          "check": "966b87f38d5ea2b7"
+        }
+      ]
+    },
+    {
+      "id": "persistent-widow",
+      "title": "The widow who kept knocking",
+      "ref": "Luke 18:1 to 8",
+      "tags": [
+        "keep praying",
+        "unanswered prayer",
+        "persistence",
+        "justice",
+        "waiting",
+        "give up"
+      ],
+      "story": "Jesus told of a widow who kept coming to an unfair judge demanding justice. He ignored her for a long time but finally gave in because she wouldn't stop. Jesus said if even an unjust judge responds, how much more will God, who loves you.",
+      "verses": [
+        {
+          "ref": "Luke 18:1",
+          "text": "He also spoke a parable to them that they must always pray, and not give up,",
+          "check": "fb9f8de7373a2acc"
+        }
+      ]
+    },
+    {
+      "id": "talents",
+      "title": "The servant who buried his talent",
+      "ref": "Matthew 25:14 to 30",
+      "tags": [
+        "fear of failing",
+        "potential",
+        "wasted gifts",
+        "afraid to try",
+        "career",
+        "talent"
+      ],
+      "story": "A master gave three servants money to manage. Two invested it and doubled it. The third was afraid, so he buried his in the ground. Jesus used this story to show that God wants us to use what we've been given, not hide it out of fear.",
+      "verses": [
+        {
+          "ref": "Matthew 25:21",
+          "text": "“His lord said to him, ‘Well done, good and faithful servant. You have been faithful over a few things, I will set you over many things. Enter into the joy of your lord.’",
+          "check": "91e26356c312b1c4"
+        }
+      ]
+    },
+    {
+      "id": "washing-feet",
+      "title": "Jesus washes their feet",
+      "ref": "John 13:1 to 17",
+      "tags": [
+        "serving",
+        "humility",
+        "unappreciated work",
+        "betrayed",
+        "pride",
+        "leading"
+      ],
+      "story": "At the last supper, Jesus got up, wrapped a towel around himself, and washed his disciples' feet, the job of the lowest servant. He even washed the feet of Judas, who he knew would betray him. Then he told them to do the same for each other.",
+      "verses": [
+        {
+          "ref": "John 13:14",
+          "text": "If I then, the Lord and the Teacher, have washed your feet, you also ought to wash one another’s feet.",
+          "check": "72f519c018932c1f"
+        }
+      ]
+    },
+    {
+      "id": "stephen-forgives",
+      "title": "Stephen forgives his attackers",
+      "ref": "Acts 6 to 7",
+      "tags": [
+        "persecuted",
+        "mocked for faith",
+        "attacked",
+        "forgive",
+        "hated",
+        "bullied"
+      ],
+      "story": "Stephen was a young leader full of grace who was falsely accused and dragged before the council. After he spoke, the crowd turned on him. As he was dying, he prayed for God not to hold it against them.",
+      "verses": [
+        {
+          "ref": "Acts 7:60",
+          "text": "He kneeled down, and cried with a loud voice, “Lord, don’t hold this sin against them!” When he had said this, he fell asleep.",
+          "check": "29be37af8ea2c710"
+        }
+      ]
+    },
+    {
+      "id": "paul-shipwreck",
+      "title": "Paul's shipwreck",
+      "ref": "Acts 27",
+      "tags": [
+        "disaster",
+        "losing everything",
+        "storm",
+        "house",
+        "business failed",
+        "crisis"
+      ],
+      "story": "Paul was a prisoner on a ship caught in a storm for two weeks. Everyone gave up hope. Paul stood up and told them to take courage, because God had told him they would lose the ship but every life would be saved. The ship broke apart, and all 276 people made it to shore.",
+      "verses": [
+        {
+          "ref": "Acts 27:22",
+          "text": "Now I exhort you to cheer up, for there will be no loss of life among you, but only of the ship.",
+          "check": "a9b65ef9a740a981"
+        }
+      ]
+    },
+    {
+      "id": "timothy-timid",
+      "title": "Paul encourages timid Timothy",
+      "ref": "1 and 2 Timothy",
+      "tags": [
+        "timid",
+        "shy",
+        "fear",
+        "anxious leader",
+        "young",
+        "confidence"
+      ],
+      "story": "Timothy was young, prone to worry, and leading a difficult church. Paul, his mentor, wrote to remind him of his gift and encourage him not to let fear rule him. God's Spirit is not a spirit of fear.",
+      "verses": [
+        {
+          "ref": "2 Timothy 1:7",
+          "text": "For God didn’t give us a spirit of fear, but of power, love, and self-control.",
+          "check": "39f5ea934612fd88"
+        }
+      ]
+    },
+    {
+      "id": "onesimus",
+      "title": "Onesimus goes back",
+      "ref": "Philemon",
+      "tags": [
+        "wronged my boss",
+        "make amends",
+        "go back",
+        "reconcile",
+        "second chance",
+        "apologize"
+      ],
+      "story": "Onesimus ran away from his master Philemon and may have taken from him. He met Paul and was changed. Paul sent him back with a letter asking Philemon to welcome him as a brother, and offered to pay anything Onesimus owed.",
+      "verses": [
+        {
+          "ref": "Philemon 1:11",
+          "text": "who once was useless to you, but now is useful to you and to me.",
+          "check": "875486f902501cf7"
+        }
+      ]
+    },
+    {
+      "id": "john-patmos",
+      "title": "John exiled on Patmos",
+      "ref": "Revelation 1; 21",
+      "tags": [
+        "isolated",
+        "exiled",
+        "alone",
+        "future",
+        "heaven",
+        "hope",
+        "pain will end"
+      ],
+      "story": "John, now old, was exiled alone on a small island for his faith. There God gave him a vision of the future, including a new heaven and earth where every tear is wiped away and pain is gone for good.",
+      "verses": [
+        {
+          "ref": "Revelation 21:4",
+          "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”",
+          "check": "e96de9fc9db9aa24"
+        }
+      ]
+    },
+    {
+      "id": "mary-magdalene",
+      "title": "Mary Magdalene at the empty tomb",
+      "ref": "John 20:1 to 18",
+      "tags": [
+        "grief",
+        "crying",
+        "called by name",
+        "hopeless",
+        "lost someone",
+        "joy"
+      ],
+      "story": "Mary Magdalene came to the tomb early and found it empty. She stood outside crying, thinking someone had taken Jesus' body. A man she thought was the gardener asked why she was weeping. Then he said her name, and she knew it was Jesus.",
+      "verses": [
+        {
+          "ref": "John 20:16",
+          "text": "Jesus said to her, “Mary.” She turned and said to him, “Rabboni!” which is to say, “Teacher!”",
+          "check": "458a0b6bad1ca3ea"
+        }
+      ]
+    },
+    {
+      "id": "locked-room",
+      "title": "The disciples behind locked doors",
+      "ref": "John 20:19 to 23",
+      "tags": [
+        "hiding",
+        "afraid",
+        "shut in",
+        "fear",
+        "locked away",
+        "want peace"
+      ],
+      "story": "After the crucifixion, the disciples hid behind locked doors, afraid they would be next. Jesus didn't wait for them to be brave. He came and stood among them and said, peace be with you.",
+      "verses": [
+        {
+          "ref": "John 20:19",
+          "text": "When therefore it was evening, on that day, the first day of the week, and when the doors were locked where the disciples were assembled, for fear of the Jews, Jesus came and stood in the middle, and said to them, “Peace be to you.”",
+          "check": "9ac5f85df7c4121b"
+        }
+      ]
+    }
+  ]
+}
