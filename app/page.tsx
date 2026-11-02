@@ -59,6 +59,7 @@ export default function Home() {
   const [text, setText] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<Result | null>(null);
+  const [copied, setCopied] = useState(false);
 
   async function submit(value: string) {
     if (!value.trim()) return;
@@ -78,9 +79,16 @@ export default function Home() {
   }
 
   async function share(v: Verse) {
-    const msg = `"${v.text}" ${v.ref}`;
-    if (navigator.share) await navigator.share({ text: msg }).catch(() => {});
-    else await navigator.clipboard?.writeText(msg);
+    const msg = `"${v.text}" ${v.ref}\n\nFound on BibleWithYou: ${window.location.origin}`;
+    if (navigator.share) {
+      await navigator.share({ text: msg }).catch(() => {});
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(msg);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {}
   }
 
   const reset = () => { setResult(null); setText(""); };
@@ -137,7 +145,7 @@ export default function Home() {
             {result.story.verses.map((v) => <VerseCard key={v.ref} v={v} />)}
           </div>
           <div className="row">
-            <button className="btn ghost" onClick={() => share(result.story.verses[0])}>Share verse</button>
+            <button className="btn ghost" onClick={() => share(result.story.verses[0])}>{copied ? "Copied" : "Share verse"}</button>
             <button className="btn" onClick={reset}>Something else</button>
           </div>
           {result.demo && <p className="small">Demo mode: add a GEMINI_API_KEY for smarter matching.</p>}
