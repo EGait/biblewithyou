@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import AccountLink from "@/components/AccountLink";
 import DailyVerse from "@/components/DailyVerse";
 
 type Verse = { ref: string; text: string };
@@ -85,7 +86,10 @@ export default function Home() {
 
   return (
     <main className="wrap">
-      <Link href="/" className="brand" onClick={reset}><Logo /> BibleWithYou</Link>
+      <header className="topbar">
+        <Link href="/" className="brand" onClick={reset}><Logo /> BibleWithYou</Link>
+        <AccountLink />
+      </header>
 
       {!result && (
         <>
