@@ -71,7 +71,8 @@ Later, with a real domain, switch from Gmail to Resend.
 
 - [ ] Gemini: turn on billing (free tier data may be read by Google)
 - [ ] Rate limit that works on Vercel (current one is per server instance)
-- [ ] Privacy page: add a contact email, have it reviewed
+- [x] Privacy page contact email (bible.wyou@gmail.com)
+- [ ] Privacy page: have it reviewed
 - [ ] AI disclosure on first launch
 
 ## Testing on your computer
