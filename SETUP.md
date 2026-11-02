@@ -61,9 +61,9 @@ Supabase's built in email only reaches members of your Supabase team and only a 
 
 1. Make a Gmail just for the app, turn on 2-Step Verification, and create an App Password (myaccount.google.com/apppasswords).
 2. Supabase → Authentication → Emails → SMTP Settings: host `smtp.gmail.com`, port `587`, username and sender = the Gmail, password = the App Password, sender name `BibleWithYou`.
-3. Authentication → Emails → Magic Link → Source, use this link so it works in any browser:
+3. Authentication → Emails → Templates. Change **both** Magic Link and Confirm signup (someone signing in for the first time gets Confirm signup). In each, set the Source to use this link so it works in any browser:
    `<a href="{{ .RedirectTo }}&token_hash={{ .TokenHash }}&type=email">Sign in to BibleWithYou</a>`
-4. Authentication → Rate Limits: raise emails per hour (e.g. 30).
+4. Authentication → Rate Limits: raise emails per hour (e.g. 30). Gmail itself allows about 500 emails a day.
 
 Later, with a real domain, switch from Gmail to Resend.
 
@@ -73,7 +73,7 @@ Later, with a real domain, switch from Gmail to Resend.
 - [ ] Rate limit that works on Vercel (current one is per server instance)
 - [x] Privacy page contact email (bible.wyou@gmail.com)
 - [ ] Privacy page: have it reviewed
-- [ ] AI disclosure on first launch
+- [x] AI disclosure on first launch (`components/AiNotice.tsx`). Update its wording when Gemini switches to a paid key.
 
 ## Testing on your computer
 

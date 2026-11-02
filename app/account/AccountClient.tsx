@@ -11,6 +11,8 @@ export default function AccountClient() {
   const [busy, setBusy] = useState(false);
   const [sent, setSent] = useState(false);
   const [error, setError] = useState("");
+  const [confirming, setConfirming] = useState(false);
+  const [deleted, setDeleted] = useState(false);
 
   const refresh = () =>
     fetch("/api/plus/status")
@@ -39,7 +41,31 @@ export default function AccountClient() {
     refresh();
   }
 
+  async function deleteAccount() {
+    setBusy(true); setError("");
+    const res = await fetch("/api/auth/delete", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ confirm: "delete" }),
+    }).catch(() => null);
+    const data = res ? await res.json().catch(() => ({})) : {};
+    setBusy(false);
+    if (res?.ok) {
+      setConfirming(false); setDeleted(true); setSent(false); setEmail("");
+      refresh();
+    } else setError(data.error || "Something went wrong. Please try again.");
+  }
+
   if (!status) return <p className="small">Loading…</p>;
+
+  if (deleted) {
+    return (
+      <div className="card" role="status">
+        <h3>Your account is deleted</h3>
+        <p>Your email and purchase records have been removed. You can keep using BibleWithYou without an account any time.</p>
+        <button className="back" onClick={() => setDeleted(false)}>OK</button>
+      </div>
+    );
+  }
 
   if (!status.accounts) {
     return <div className="card"><p>Accounts are coming soon.</p></div>;
@@ -66,7 +92,21 @@ export default function AccountClient() {
             </>
           )}
         </div>
-        <button className="btn ghost" onClick={signOut} disabled={busy}>{busy ? "Signing out…" : "Sign out"}</button>
+        <button className="btn ghost" onClick={signOut} disabled={busy}>Sign out</button>
+        {error && <p className="notice">{error}</p>}
+        {confirming ? (
+          <div className="card">
+            <h3>Delete your account?</h3>
+            <p>This removes your email and your Plus purchases from BibleWithYou.
+              {status.plus ? " Plus will end on this device too, and any monthly plan will be canceled." : ""} This can&apos;t be undone.</p>
+            <div className="row">
+              <button className="btn ghost" onClick={() => setConfirming(false)} disabled={busy}>Keep my account</button>
+              <button className="btn" onClick={deleteAccount} disabled={busy}>{busy ? "Deleting…" : "Delete account"}</button>
+            </div>
+          </div>
+        ) : (
+          <button className="back" onClick={() => { setError(""); setConfirming(true); }}>Delete account</button>
+        )}
       </div>
     );
   }

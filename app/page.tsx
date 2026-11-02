@@ -5,6 +5,7 @@ import Link from "next/link";
 import AccountLink from "@/components/AccountLink";
 import { PLUS_LIVE } from "@/lib/features";
 import DailyVerse from "@/components/DailyVerse";
+import AiNotice from "@/components/AiNotice";
 
 type Verse = { ref: string; text: string };
 type Result =
@@ -102,6 +103,7 @@ export default function Home() {
 
       {!result && (
         <>
+          <AiNotice />
           <div className="stack">
             <h1>What are you carrying today?</h1>
             <p className="muted">Someone in the Bible has been where you are. Tell us what&apos;s going on.</p>

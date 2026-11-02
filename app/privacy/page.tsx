@@ -12,7 +12,7 @@ export default function Privacy() {
         <h3>What we store</h3>
         <p>We do not store what you type or link it to your name. We keep a short daily request count to prevent abuse.</p>
         <h3>Accounts (optional)</h3>
-        <p>You don&apos;t need an account to use BibleWithYou. If you sign in, we store your email address and a record of your Plus purchases with Supabase, our database provider, so Plus works on all your devices. We don&apos;t save what you type into BibleWithYou to your account. To delete your account, email us at <a href="mailto:bible.wyou@gmail.com">bible.wyou@gmail.com</a>.</p>
+        <p>You don&apos;t need an account to use BibleWithYou. If you sign in, we store your email address and a record of your Plus purchases with Supabase, our database provider, so Plus works on all your devices. We don&apos;t save what you type into BibleWithYou to your account. You can delete your account any time from the Account page, which removes your email and purchase records. You can also email us at <a href="mailto:bible.wyou@gmail.com">bible.wyou@gmail.com</a> and we&apos;ll do it for you.</p>
         <h3>Payments</h3>
         <p>Card payments are handled by Stripe. We never see or store your card number. Solana Pay payments are recorded on the public Solana blockchain, which anyone can view.</p>
         <h3>AI processing</h3>
