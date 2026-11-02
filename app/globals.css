@@ -75,3 +75,9 @@ textarea { width: 100%; padding: 14px; border: 1px solid var(--line); border-rad
 .badge-item { display: flex; gap: 14px; align-items: center; background: var(--card); border-radius: 14px; padding: 14px 16px; }
 .badge-item.locked { opacity: 0.75; }
 .badge-item.locked strong { color: var(--faint); }
+
+/* Solana Pay waiting state */
+.waiting { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0; font-size: 14px; color: var(--faint); }
+.spinner { width: 16px; height: 16px; border-radius: 50%; border: 2px solid var(--line); border-top-color: var(--accent); animation: spin 0.9s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .spinner { animation-duration: 2.5s; } }

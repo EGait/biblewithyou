@@ -57,6 +57,13 @@ export default function PayButtons({ kind, amount, solana, card, onPaid }: Props
     }, 3000);
   }
 
+  function cancel() {
+    if (timer.current) clearInterval(timer.current);
+    timer.current = null;
+    setSol(null);
+    setStatus("");
+  }
+
   if (sol && status !== "") {
     return (
       <div className="card" aria-live="polite">
@@ -66,13 +73,15 @@ export default function PayButtons({ kind, amount, solana, card, onPaid }: Props
             <a className="btn" href={sol.url}>Open wallet</a>
             <img src={sol.qr} alt="Solana Pay QR code" width={220} height={220} style={{ alignSelf: "center", borderRadius: 12 }} />
             <p className="small">On Seeker, tap Open wallet. On a computer, scan the code with your phone wallet. This page updates when the payment lands.</p>
+            <p className="waiting" role="status"><span className="spinner" aria-hidden="true" /> Waiting for payment…</p>
+            <button className="btn ghost" onClick={cancel}>Cancel</button>
           </>
         )}
         {status === "paid" && <h3>Payment received. Thank you!</h3>}
         {status === "expired" && (
           <>
             <p>This payment link expired. If you already paid, contact us with your transaction.</p>
-            <button className="btn ghost" onClick={() => { setSol(null); setStatus(""); }}>Start over</button>
+            <button className="btn ghost" onClick={cancel}>Start over</button>
           </>
         )}
       </div>
