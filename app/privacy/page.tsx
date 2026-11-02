@@ -7,7 +7,7 @@ export default function Privacy() {
     <main className="wrap">
       <Link href="/" className="brand">BibleWithYou</Link>
       <h1>Privacy</h1>
-      <p className="muted">[DRAFT. Have this reviewed before launch.]</p>
+      <p className="muted">Last updated November 2, 2026</p>
       <div className="stack">
         <h3>What we store</h3>
         <p>We do not store what you type or link it to your name. We keep a short daily request count to prevent abuse.</p>
