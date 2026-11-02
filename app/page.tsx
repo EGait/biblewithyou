@@ -101,7 +101,7 @@ export default function Home() {
           <form className="stack" onSubmit={(e) => { e.preventDefault(); submit(text); }}>
             <label htmlFor="feel">In your own words</label>
             <textarea id="feel" maxLength={600} value={text} onChange={(e) => setText(e.target.value)}
-              placeholder="My best friend went behind my back and I can't stop thinking about it..." />
+              placeholder="What's on your heart today?" />
             <button className="btn" disabled={loading}>{loading ? "Finding your story..." : "Find my story"}</button>
           </form>
           <div className="stack">
