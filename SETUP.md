@@ -73,7 +73,7 @@ Later, with a real domain, switch from Gmail to Resend.
 - [ ] Rate limit that works on Vercel (current one is per server instance)
 - [x] Privacy page contact email (bible.wyou@gmail.com)
 - [ ] Privacy page: have it reviewed
-- [x] AI disclosure on first launch (`components/AiNotice.tsx`). Update its wording when Gemini switches to a paid key.
+- [x] AI disclosure (small note near the bottom of the home screen, `app/page.tsx`). Update its wording when Gemini switches to a paid key.
 
 ## Testing on your computer
 

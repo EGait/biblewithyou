@@ -5,7 +5,6 @@ import Link from "next/link";
 import AccountLink from "@/components/AccountLink";
 import { PLUS_LIVE } from "@/lib/features";
 import DailyVerse from "@/components/DailyVerse";
-import AiNotice from "@/components/AiNotice";
 
 type Verse = { ref: string; text: string };
 type Result =
@@ -103,7 +102,6 @@ export default function Home() {
 
       {!result && (
         <>
-          <AiNotice />
           <div className="stack">
             <h1>What are you carrying today?</h1>
             <p className="muted">Someone in the Bible has been where you are. Tell us what&apos;s going on.</p>
@@ -124,6 +122,7 @@ export default function Home() {
           </div>
           <DailyVerse />
           <p className="small">BibleWithYou shares scripture for encouragement. It isn&apos;t counseling, medical, or legal advice. In crisis, call or text 988.</p>
+          <p className="small">AI (Google Gemini) picks your story and writes the short note. Stories and verses come from our library, word for word from the World English Bible. The AI never writes scripture. What you type is sent to Google, so please leave out names and private details. <Link href="/privacy">Privacy</Link></p>
         </>
       )}
 
