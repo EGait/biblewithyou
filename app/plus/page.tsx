@@ -33,7 +33,7 @@ export default async function PlusPage({ searchParams }: { searchParams: Promise
         solana={solanaEnabled()}
         card={stripeEnabled()}
       />
-      <p className="small">Monthly by card renews automatically and can be canceled anytime. Monthly with Solana Pay is a 30 day pass that does not auto renew. Plus is saved in this browser.</p>
+      <p className="small">Monthly by card renews automatically and can be canceled anytime. Monthly with Solana Pay is a 30 day pass that does not auto renew. Plus is saved in this browser, and in your account if you sign in.</p>
     </main>
   );
 }

@@ -11,8 +11,14 @@ export type PlusToken = {
   exp: number; // ms
   src: "solana" | "stripe";
   sub?: string; // Stripe subscription id, used to renew monthly
-  ref?: string; // Solana Pay reference
+  sid?: string; // Stripe Checkout session id, identifies the purchase
+  ref?: string; // Solana Pay reference, identifies the purchase
 };
+
+// The id that makes a purchase unique (Solana reference or Stripe session id).
+export function purchaseRef(t: PlusToken): string | undefined {
+  return t.src === "solana" ? t.ref : t.sid;
+}
 
 function secret(): string {
   const s = process.env.UNLOCK_SECRET;

@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import PayButtons from "@/components/PayButtons";
 
 type Props = { monthly: number; lifetime: number; solana: boolean; card: boolean };
 
 export default function PlusClient({ monthly, lifetime, solana, card }: Props) {
   const [plan, setPlan] = useState<"lifetime" | "monthly">("lifetime");
-  const [active, setActive] = useState<{ plus: boolean; plan?: string } | null>(null);
+  const [active, setActive] = useState<{ plus: boolean; plan?: string; email?: string | null; accounts?: boolean } | null>(null);
 
   const refresh = () => fetch("/api/plus/status").then((r) => r.json()).then(setActive).catch(() => {});
   useEffect(() => { refresh(); }, []);
@@ -17,12 +18,18 @@ export default function PlusClient({ monthly, lifetime, solana, card }: Props) {
       <div className="card">
         <h3>You have Plus ({active.plan === "lifetime" ? "Lifetime" : "Monthly"})</h3>
         <p className="muted">Thank you for supporting BibleWithYou.</p>
+        {active.accounts && !active.email && (
+          <p className="small"><Link href="/account">Sign in</Link> to keep Plus on all your devices.</p>
+        )}
       </div>
     );
   }
 
   return (
     <div className="stack">
+      {active?.accounts && !active.email && (
+        <p className="small">Tip: <Link href="/account">sign in</Link> first so Plus stays with you on every device. It&apos;s optional.</p>
+      )}
       <div className="plans" role="radiogroup" aria-label="Choose a plan">
         <button role="radio" aria-checked={plan === "lifetime"} className={`plan ${plan === "lifetime" ? "on" : ""}`} onClick={() => setPlan("lifetime")}>
           <span className="plan-name">Lifetime</span>

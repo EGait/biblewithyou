@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 import { PLUS_COOKIE, cookieOptions, sign, verify, type PlusToken } from "@/lib/entitlement";
 import { PLANS, isPlanId } from "@/lib/pricing";
+import { linkPurchase } from "@/lib/purchases";
 import { findPayment } from "@/lib/solanaPay";
+import { currentUser } from "@/lib/supabase";
 
 export const runtime = "nodejs";
 
@@ -26,6 +28,8 @@ export async function POST(req: Request) {
   if (isPlanId(i.kind)) {
     const token: PlusToken = { plan: i.kind, exp: Date.now() + PLANS[i.kind].days * 864e5, src: "solana", ref: i.ref };
     res.cookies.set(PLUS_COOKIE, sign(token, "plus"), cookieOptions(token.exp));
+    const user = await currentUser();
+    if (user) await linkPurchase(user.id, token, signature).catch((e) => console.error("link solana", e));
   }
   return res;
 }

@@ -187,7 +187,7 @@ export default function Home() {
         </>
       )}
 
-      <footer className="small"><Link href="/badges">Badges</Link> · <Link href="/plus">Plus</Link> · <Link href="/donate">Donate</Link> · <Link href="/privacy">Privacy</Link> · Scripture from the World English Bible (public domain)</footer>
+      <footer className="small"><Link href="/badges">Badges</Link> · <Link href="/plus">Plus</Link> · <Link href="/donate">Donate</Link> · <Link href="/account">Account</Link> · <Link href="/privacy">Privacy</Link> · Scripture from the World English Bible (public domain)</footer>
     </main>
   );
 }

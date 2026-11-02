@@ -1,7 +1,9 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { PLUS_COOKIE, cookieOptions, sign, type PlusToken } from "@/lib/entitlement";
 import { PLANS, isPlanId } from "@/lib/pricing";
+import { linkPurchase } from "@/lib/purchases";
 import { stripe } from "@/lib/stripe";
+import { currentUser } from "@/lib/supabase";
 
 export const runtime = "nodejs";
 
@@ -22,9 +24,11 @@ export async function GET(req: NextRequest) {
   const sub = typeof session.subscription === "string" ? session.subscription : session.subscription?.id;
   // Monthly tokens are short and renew via /api/plus/status while the subscription is active.
   const days = kind === "monthly" ? 32 : PLANS.lifetime.days;
-  const token: PlusToken = { plan: kind, exp: Date.now() + days * 864e5, src: "stripe", sub: sub ?? undefined };
+  const token: PlusToken = { plan: kind, exp: Date.now() + days * 864e5, src: "stripe", sub: sub ?? undefined, sid: session.id };
 
   const res = NextResponse.redirect(`${origin}/plus?welcome=1`);
   res.cookies.set(PLUS_COOKIE, sign(token, "plus"), cookieOptions(token.exp));
+  const user = await currentUser();
+  if (user) await linkPurchase(user.id, token).catch((e) => console.error("link stripe", e));
   return res;
 }
