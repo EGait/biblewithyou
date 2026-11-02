@@ -25,3 +25,10 @@ create policy "read own entitlements" on public.entitlements
   using ((select auth.uid()) = user_id);
 
 -- No insert, update or delete policies: browsers can never write purchases.
+
+-- Explicit access (the project does not expose new tables automatically).
+-- Signed out visitors get nothing. Signed in users can only read, and RLS limits that to their own rows.
+-- The server's secret key (service_role) manages purchases.
+revoke all on public.entitlements from anon, authenticated;
+grant select on public.entitlements to authenticated;
+grant select, insert, update, delete on public.entitlements to service_role;
