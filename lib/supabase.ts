@@ -1,6 +1,7 @@
 import { createServerClient } from "@supabase/ssr";
 import { createClient, type SupabaseClient, type User } from "@supabase/supabase-js";
 import { cookies } from "next/headers";
+import { PLUS_LIVE } from "@/lib/features";
 
 // Supabase is used server side only. Keys never reach the browser.
 // Accounts are optional: when these env vars are missing, the app works as before.
@@ -8,7 +9,8 @@ import { cookies } from "next/headers";
 const url = () => process.env.SUPABASE_URL || "";
 const publishableKey = () => process.env.SUPABASE_PUBLISHABLE_KEY || "";
 
-export const accountsEnabled = () => Boolean(url() && publishableKey() && process.env.SUPABASE_SECRET_KEY);
+export const accountsEnabled = () =>
+  PLUS_LIVE && Boolean(url() && publishableKey() && process.env.SUPABASE_SECRET_KEY);
 
 // Acts as the visitor, using their session cookie. Use in route handlers.
 export async function sessionClient(): Promise<SupabaseClient> {

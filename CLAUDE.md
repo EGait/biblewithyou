@@ -32,6 +32,8 @@ npm run lint                         # tsc --noEmit
 - `lib/daily.ts` + `app/api/daily` daily verse: same story and verse for everyone per local date, hashed pick from the verified library.
 - `lib/streak.ts` streak + badge logic (pure, localStorage for now). `components/DailyVerse.tsx` home card with streak and unlock toast. `app/badges` badge page.
 - `app/plus`, `app/donate` pages; `components/PayButtons.tsx` shared Solana Pay + card buttons.
+- `lib/features.ts` `PLUS_LIVE` switch. Currently `false`: Plus, donations and accounts are paused (links hidden, pages show `components/ComingSoon.tsx`, pay and login routes refuse). `stripeEnabled`, `solanaEnabled` and `accountsEnabled` all respect it.
+- `SETUP.md` every outside service, env var, and where keys live. Keep it current when services or env vars change. Never put real keys in it.
 - `lib/supabase.ts` Supabase clients, server side only (`SUPABASE_URL`, `SUPABASE_PUBLISHABLE_KEY`, `SUPABASE_SECRET_KEY`); accounts switch off when unset. No proxy/middleware: sessions are read and refreshed in route handlers.
 - `lib/purchases.ts` saves Plus purchases to the `entitlements` table (`supabase/migrations/001_entitlements.sql`), keyed by unique `source_ref` (Solana reference or Stripe session id). `/api/plus/status` links this browser's purchase to the signed in account and restores Plus from the account on new devices.
 - `app/account` optional email sign in (magic link via `/api/auth/login`, lands on `app/auth/confirm` using `token_hash`), Plus status, sign out (`/api/auth/signout`, also clears the Plus cookie).

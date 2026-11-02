@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import AccountLink from "@/components/AccountLink";
+import { PLUS_LIVE } from "@/lib/features";
 import DailyVerse from "@/components/DailyVerse";
 
 type Verse = { ref: string; text: string };
@@ -88,7 +89,7 @@ export default function Home() {
     <main className="wrap">
       <header className="topbar">
         <Link href="/" className="brand" onClick={reset}><Logo /> BibleWithYou</Link>
-        <AccountLink />
+        {PLUS_LIVE && <AccountLink />}
       </header>
 
       {!result && (
@@ -179,8 +180,14 @@ export default function Home() {
       {result?.type === "limit" && (
         <>
           <h2>You&apos;ve hit today&apos;s limit.</h2>
-          <p className="muted">The free version resets tomorrow. Want unlimited stories? Plus is $0.99 a month or $4.99 once. If you&apos;re in crisis, call or text 988 any time.</p>
-          <Link className="btn" href="/plus">Get Plus</Link>
+          {PLUS_LIVE ? (
+            <>
+              <p className="muted">The free version resets tomorrow. Want unlimited stories? Plus is $0.99 a month or $4.99 once. If you&apos;re in crisis, call or text 988 any time.</p>
+              <Link className="btn" href="/plus">Get Plus</Link>
+            </>
+          ) : (
+            <p className="muted">Come back tomorrow for more. If you&apos;re in crisis, call or text 988 any time.</p>
+          )}
         </>
       )}
 
@@ -191,7 +198,7 @@ export default function Home() {
         </>
       )}
 
-      <footer className="small"><Link href="/badges">Badges</Link> · <Link href="/plus">Plus</Link> · <Link href="/donate">Donate</Link> · <Link href="/account">Account</Link> · <Link href="/privacy">Privacy</Link> · Scripture from the World English Bible (public domain)</footer>
+      <footer className="small"><Link href="/badges">Badges</Link> · {PLUS_LIVE && <><Link href="/plus">Plus</Link> · <Link href="/donate">Donate</Link> · <Link href="/account">Account</Link> · </>}<Link href="/privacy">Privacy</Link> · Scripture from the World English Bible (public domain)</footer>
     </main>
   );
 }

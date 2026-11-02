@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { PLANS } from "@/lib/pricing";
 import { solanaEnabled, stripeEnabled } from "@/lib/stripe";
+import ComingSoon from "@/components/ComingSoon";
+import { PLUS_LIVE } from "@/lib/features";
 import PlusClient from "./PlusClient";
 
 export const metadata = { title: "Plus | BibleWithYou" };
@@ -8,6 +10,7 @@ export const dynamic = "force-dynamic";
 
 export default async function PlusPage({ searchParams }: { searchParams: Promise<Record<string, string>> }) {
   const sp = await searchParams;
+  if (!PLUS_LIVE) return <ComingSoon title="BibleWithYou Plus" />;
   return (
     <main className="wrap">
       <Link href="/" className="brand">BibleWithYou</Link>
