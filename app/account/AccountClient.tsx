@@ -76,6 +76,7 @@ export default function AccountClient() {
       <div className="card" role="status">
         <h3>Check your email</h3>
         <p>We sent a sign in link to <strong>{email}</strong>. Tap it to finish signing in. It may take a minute, and it might land in spam.</p>
+        <p className="small">Open the link on this device, in this same browser.</p>
         <button className="back" onClick={() => setSent(false)}>Use a different email</button>
       </div>
     );
