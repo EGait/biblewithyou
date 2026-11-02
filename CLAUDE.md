@@ -12,20 +12,30 @@ npm run fill-verses -- --missing     # only new or changed verses
 npm run check-verses                 # fails if any verse is unverified
 npm run build                        # runs check-verses first (prebuild)
 npx tsx scripts/test-guardrails.ts   # safety screen tests
+npx tsx scripts/test-streak.ts       # streak + badge logic tests
 npm run lint                         # tsc --noEmit
 ```
 
 ## Layout
 
 - `app/page.tsx` main UI (client). Screens: home, story, crisis, harm, crime, offtopic, limit.
-- `app/api/story/route.ts` the only API route. Order: guardrails → rate limit → Gemini (or demo keyword match) → validate → respond.
+- `app/api/story/route.ts` story route. Order: guardrails → rate limit → Gemini (or demo keyword match) → validate → respond.
 - `lib/guardrails.ts` regex safety screen + `cleanConnection` output filter.
 - `lib/gemini.ts` system prompt, JSON schema (storyId is an enum of library ids), safety settings.
 - `lib/library.ts` loads `data/library.json`, keyword matcher, comfort verse.
-- `lib/rateLimit.ts` in-memory daily limit (replace with Upstash Redis before launch).
+- `lib/rateLimit.ts` in-memory daily limit (replace with Upstash Redis before launch). Plus members skip it.
+- `lib/pricing.ts` plan prices ($0.99/mo, $4.99 lifetime) and donation split (`DONATION_CAUSE_PCT`, default 50).
+- `lib/entitlement.ts` HMAC signed Plus token in the `bwy_plus` httpOnly cookie (needs `UNLOCK_SECRET`). Every token is signed with a purpose (`"plus"` or `"intent"`) so one kind can never be used as another; `readPlus` also checks the token's shape.
+- `lib/solanaPay.ts` Solana Pay USDC links + on chain verification over JSON RPC (reference key, merchant USDC balance delta).
+- `lib/stripe.ts`, `lib/checkout.ts` Stripe client and server side order pricing.
+- `app/api/pay/*` Solana create/verify, Stripe checkout/confirm. `app/api/plus/status` reports Plus and renews Stripe monthly.
+- `lib/daily.ts` + `app/api/daily` daily verse: same story and verse for everyone per local date, hashed pick from the verified library.
+- `lib/streak.ts` streak + badge logic (pure, localStorage for now). `components/DailyVerse.tsx` home card with streak and unlock toast. `app/badges` badge page.
+- `app/plus`, `app/donate` pages; `components/PayButtons.tsx` shared Solana Pay + card buttons.
+- `brand/` logo and icon source files (lamp over open book). Copies used by the app live in `public/` and `app/favicon.ico`.
 - `data/library.json` the story library. Source of truth for all scripture shown in the app.
 - `data/web/eng-web.usfx.xml` the full World English Bible (public domain, from github.com/seven1m/open-bibles, the dataset bible-api.com serves). fill-verses reads verses from it. Pinned by SHA-256 in `scripts/fill-verses.mjs`. Read only; not bundled into the app.
-- `scripts/` fill-verses, check-verses, verse-checksum, test-guardrails.
+- `scripts/` fill-verses, check-verses, verse-checksum, test-guardrails, test-streak.
 
 ## Non-negotiable rules
 
@@ -37,7 +47,11 @@ npm run lint                         # tsc --noEmit
 6. **Guilt is allowed, how-to is not.** Someone feeling guilty about a wrong gets a redemption story. Requests to commit or hide a crime get refused. Victims get a story plus the safety note.
 7. **No advice.** No medical, mental health treatment, legal, financial, or relationship advice anywhere in prompts or UI copy.
 8. **Real stories only.** Every library entry must be an actual Bible passage with a correct `ref`. Retellings are short plain summaries; keep them faithful to the text and do not add invented detail.
-9. Keep `GEMINI_API_KEY` server side only. Never expose it to the client.
+9. Keep `GEMINI_API_KEY`, `STRIPE_SECRET_KEY` and `UNLOCK_SECRET` server side only. Never expose them to the client.
+10. **Free stays free.** Plus is an optional upgrade. Never put the crisis screen, safety features, or the core story flow behind a paywall.
+11. **Prices are set on the server.** Never trust an amount or plan price from the client. Plus is only granted after the server confirms payment with Stripe or on chain.
+12. **Donations:** the split shown in the UI must match `DONATION_CAUSE_PCT`. Always show "not tax deductible". Don't promise a specific charity until `CAUSE_NAME` is set.
+13. **Daily verse and badges:** the daily verse must come from the verified library via `dailyPick`, never hardcoded text. Badges are earned by best streak and never taken away. Keep badge copy encouraging, never guilt or shame for missed days.
 
 ## Adding stories
 
@@ -54,8 +68,12 @@ Each entry: `id` (kebab-case, unique), `title`, `ref`, `tags` (feelings and situ
 
 1. [ ] Run fill-verses, confirm build passes, push to GitHub (`biblewithyou`), connect Vercel, add env vars.
 2. [ ] Gemini free tier for testing only. Switch to a paid key before public launch (free tier data may be used by Google).
-3. [ ] Upstash Redis rate limit.
-4. [ ] Finalize privacy page; show AI disclosure on first launch.
-5. [ ] Grow library to 150+ stories.
-6. [ ] Supabase accounts + saved journal.
-7. [ ] Capacitor iOS/Android build with native features so it passes App Store guideline 4.2: daily verse push notification, offline journal, share sheet, home screen widget.
+3. [ ] Payments go live: set `UNLOCK_SECRET`, `SOLANA_MERCHANT_WALLET`, `SOLANA_RPC_URL` (Helius), Stripe test keys, then live keys. Test a $0.99 USDC payment on mainnet and a Stripe test card (4242 4242 4242 4242).
+4. [ ] **Email sign up / login (next big task).** Today Plus lives in a browser cookie, so it is lost on a new device or cleared cookies. Plan: Supabase Auth with email magic links (no passwords). Add an `entitlements` table (user_id, plan, source, stripe_customer_id, stripe_subscription_id, solana_signature, wallet, expires_at). Stripe: pass the user's email/customer to Checkout and add a webhook (`checkout.session.completed`, `customer.subscription.updated/deleted`) that writes entitlements. Solana: on verify, attach the payment to the signed in user. Add "Restore purchase" and a Stripe customer portal link to cancel. Keep login optional: free users never need an account. Keep the cookie as a fast cache of the DB record.
+5. [ ] Upstash Redis rate limit.
+6. [ ] Finalize privacy page (add payments and email data); show AI disclosure on first launch.
+7. [ ] Grow library to 150+ stories.
+8. [ ] Saved journal and verse cards for Plus (needs login). Move streaks and badges to the database on login (merge with the device's local streak, keep the higher values).
+8b. [ ] Daily verse push notification (web push with a service worker for the PWA, native push in the Capacitor app). User picks a time; off by default.
+9. [ ] Quarterly donation receipts on /donate.
+10. [ ] Capacitor iOS/Android build with native features so it passes App Store guideline 4.2: daily verse push notification, offline journal, share sheet, home screen widget.

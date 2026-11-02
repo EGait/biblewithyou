@@ -37,6 +37,15 @@ user text
 * The AI's note is checked: no links, no verse citations, no medical, legal or money talk.
 * If Gemini fails or blocks a message, the app falls back to keyword matching.
 
+## Plus and donations
+
+* Free version stays free. Plus is $0.99/month or $4.99 lifetime (`lib/pricing.ts`).
+* Pay with Solana Pay (USDC, great on Seeker) or card (Stripe Checkout, includes Apple Pay and Google Pay).
+* Donations split by `DONATION_CAUSE_PCT` (default 50% cause, 50% development).
+* No accounts yet: Plus is saved in a signed cookie. Email login is the next task (see CLAUDE.md roadmap).
+
+Env vars: `UNLOCK_SECRET`, `SOLANA_MERCHANT_WALLET`, `SOLANA_RPC_URL`, `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_SITE_URL`, `DONATION_CAUSE_PCT`, `CAUSE_NAME`. See `.env.example`.
+
 ## Verses are never made up
 
 * The AI never writes or sees verse text. It only picks a story id.

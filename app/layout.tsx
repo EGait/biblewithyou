@@ -7,6 +7,7 @@ const literata = Literata({ subsets: ["latin"], variable: "--font-serif" });
 
 export const metadata: Metadata = {
   title: "BibleWithYou",
+  icons: { icon: [{ url: "/favicon.ico" }, { url: "/icon.svg", type: "image/svg+xml" }], apple: "/apple-touch-icon.png" },
   description: "Someone in the Bible has been where you are. Share what you're going through and find a Bible story and verses that speak to it.",
 };
 

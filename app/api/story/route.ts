@@ -1,4 +1,5 @@
-import { NextResponse } from "next/server";
+import { NextResponse, type NextRequest } from "next/server";
+import { PLUS_COOKIE, readPlus } from "@/lib/entitlement";
 import { cleanConnection, normalize, screenInput } from "@/lib/guardrails";
 import { matchWithGemini } from "@/lib/gemini";
 import { comfortVerse, getStory, isValidStoryId, keywordMatch, type Story } from "@/lib/library";
@@ -16,7 +17,7 @@ function publicStory(s: Story) {
   return { title: s.title, ref: s.ref, story: s.story, verses: s.verses };
 }
 
-export async function POST(req: Request) {
+export async function POST(req: NextRequest) {
   const ip = (req.headers.get("x-forwarded-for") || "local").split(",")[0].trim();
   const limit = Number(process.env.DAILY_LIMIT || 10);
 
@@ -34,9 +35,17 @@ export async function POST(req: Request) {
   if (screen.kind === "harm") return NextResponse.json({ type: "harm" });
   if (screen.kind === "crime") return NextResponse.json({ type: "crime" });
 
-  // 2. Rate limit (only counts real requests).
-  const rl = checkLimit(ip, limit);
-  if (!rl.ok) return NextResponse.json({ type: "limit" }, { status: 429 });
+  // 2. Rate limit (only counts real requests). Plus members skip it.
+  let plus = false;
+  try {
+    plus = Boolean(readPlus(req.cookies.get(PLUS_COOKIE)?.value));
+  } catch {
+    plus = false; // UNLOCK_SECRET not set yet
+  }
+  if (!plus) {
+    const rl = checkLimit(ip, limit);
+    if (!rl.ok) return NextResponse.json({ type: "limit" }, { status: 429 });
+  }
 
   const text = normalize(body.text as string);
   const safetyNote = screen.victim ? VICTIM_NOTE : undefined;

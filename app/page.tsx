@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import DailyVerse from "@/components/DailyVerse";
 
 type Verse = { ref: string; text: string };
 type Result =
@@ -22,9 +23,12 @@ const EXAMPLES = [
 
 function Logo() {
   return (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#1F5F5B" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M2 5c3-1.5 6.5-1.5 10 1 3.5-2.5 7-2.5 10-1v14c-3-1.5-6.5-1.5-10 1-3.5-2.5-7-2.5-10-1z" />
-      <path d="M12 6v14" />
+    <svg width="30" height="30" viewBox="0 -3 48 48" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <g stroke="#1F5F5B" strokeWidth="2.6">
+        <path d="M6 18c6-3 12-3 18 1 6-4 12-4 18-1v22c-6-3-12-3-18 1-6-4-12-4-18-1z" />
+        <path d="M24 19v22" />
+      </g>
+      <path transform="translate(0 -2.5)" fill="#D99A2B" stroke="#D99A2B" strokeWidth="1.6" d="M24 3c3 4 5.5 6 5.5 9.2a5.5 5.5 0 0 1-11 0c0-2.2 1.2-3.6 2.4-5.2 1 1.4 2 2.2 3.2 2.4-.4-2.4-.6-4.2-.1-6.4z" />
     </svg>
   );
 }
@@ -103,6 +107,7 @@ export default function Home() {
               ))}
             </div>
           </div>
+          <DailyVerse />
           <p className="small">BibleWithYou shares scripture for encouragement. It isn&apos;t counseling, medical, or legal advice. In crisis, call or text 988.</p>
         </>
       )}
@@ -170,7 +175,8 @@ export default function Home() {
       {result?.type === "limit" && (
         <>
           <h2>You&apos;ve hit today&apos;s limit.</h2>
-          <p className="muted">Come back tomorrow for more. If you&apos;re in crisis, call or text 988 any time.</p>
+          <p className="muted">The free version resets tomorrow. Want unlimited stories? Plus is $0.99 a month or $4.99 once. If you&apos;re in crisis, call or text 988 any time.</p>
+          <Link className="btn" href="/plus">Get Plus</Link>
         </>
       )}
 
@@ -181,7 +187,7 @@ export default function Home() {
         </>
       )}
 
-      <footer className="small"><Link href="/privacy">Privacy</Link> · Scripture from the World English Bible (public domain)</footer>
+      <footer className="small"><Link href="/badges">Badges</Link> · <Link href="/plus">Plus</Link> · <Link href="/donate">Donate</Link> · <Link href="/privacy">Privacy</Link> · Scripture from the World English Bible (public domain)</footer>
     </main>
   );
 }
