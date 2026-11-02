@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
   }
 
   const ip = (req.headers.get("x-forwarded-for") || "local").split(",")[0].trim();
-  if (!checkLimit(`login:${ip}`, 5).ok) {
+  if (!(await checkLimit(`login:${ip}`, 5)).ok) {
     return NextResponse.json({ error: "Too many tries today. Please try again tomorrow." }, { status: 429 });
   }
 

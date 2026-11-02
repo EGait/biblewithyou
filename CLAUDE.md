@@ -23,7 +23,7 @@ npm run lint                         # tsc --noEmit
 - `lib/guardrails.ts` regex safety screen + `cleanConnection` output filter.
 - `lib/gemini.ts` system prompt, JSON schema (storyId is an enum of library ids), safety settings.
 - `lib/library.ts` loads `data/library.json`, keyword matcher, comfort verse.
-- `lib/rateLimit.ts` in-memory daily limit (replace with Upstash Redis before launch). Plus members skip it.
+- `lib/rateLimit.ts` in-memory daily limit, IPs HMAC hashed (move to Supabase before launch). Plus members skip it.
 - `lib/pricing.ts` plan prices ($0.99/mo, $4.99 lifetime) and donation split (`DONATION_CAUSE_PCT`, default 50).
 - `lib/entitlement.ts` HMAC signed Plus token in the `bwy_plus` httpOnly cookie (needs `UNLOCK_SECRET`). Every token is signed with a purpose (`"plus"` or `"intent"`) so one kind can never be used as another; `readPlus` also checks the token's shape.
 - `lib/solanaPay.ts` Solana Pay USDC links + on chain verification over JSON RPC (reference key, merchant USDC balance delta).
@@ -76,9 +76,9 @@ Each entry: `id` (kebab-case, unique), `title`, `ref`, `tags` (feelings and situ
 2. [ ] Gemini free tier for testing only. Switch to a paid key before public launch (free tier data may be used by Google).
 3. [ ] Payments go live: set `UNLOCK_SECRET`, `SOLANA_MERCHANT_WALLET`, `SOLANA_RPC_URL` (Helius), Stripe test keys, then live keys. Test a $0.99 USDC payment on mainnet and a Stripe test card (4242 4242 4242 4242).
 4. [~] **Email sign up / login.** Done: Supabase magic link sign in, `entitlements` table, Solana and Stripe purchases linked on pay, cookie purchases linked on sign in, restore on new device, sign out. Account deletion done (`/api/auth/delete`, cancels Stripe monthly first). Still to do: Stripe webhook, customer portal link to cancel. Before launch: connect custom SMTP (needs a real domain; e.g. Resend), then set the Magic Link template link to `{{ .RedirectTo }}&token_hash={{ .TokenHash }}&type=email` so links work across browsers. Until then the default template is used and the link only works in the browser that requested it. Original plan: Today Plus lives in a browser cookie, so it is lost on a new device or cleared cookies. Plan: Supabase Auth with email magic links (no passwords). Add an `entitlements` table (user_id, plan, source, stripe_customer_id, stripe_subscription_id, solana_signature, wallet, expires_at). Stripe: pass the user's email/customer to Checkout and add a webhook (`checkout.session.completed`, `customer.subscription.updated/deleted`) that writes entitlements. Solana: on verify, attach the payment to the signed in user. Add "Restore purchase" and a Stripe customer portal link to cancel. Keep login optional: free users never need an account. Keep the cookie as a fast cache of the DB record.
-5. [ ] Upstash Redis rate limit.
+5. [ ] Supabase rate limit (table + increment function). Today `lib/rateLimit.ts` counts in memory, which is per Vercel instance. Default free limit is 5 a day (`DAILY_LIMIT`).
 6. [ ] Finalize privacy page (add payments and email data); AI disclosure is done (small note near the bottom of the home screen in `app/page.tsx`).
-7. [ ] Grow library to 150+ stories.
+7. [x] Grow library to 150+ stories (176 as of 2026-11-02).
 8. [ ] Saved journal and verse cards for Plus (needs login). Move streaks and badges to the database on login (merge with the device's local streak, keep the higher values).
 8b. [ ] Daily verse push notification (web push with a service worker for the PWA, native push in the Capacitor app). User picks a time; off by default.
 9. [ ] Quarterly donation receipts on /donate.

@@ -19,7 +19,7 @@ function publicStory(s: Story) {
 
 export async function POST(req: NextRequest) {
   const ip = (req.headers.get("x-forwarded-for") || "local").split(",")[0].trim();
-  const limit = Number(process.env.DAILY_LIMIT || 10);
+  const limit = Number(process.env.DAILY_LIMIT || 5);
 
   let body: { text?: unknown };
   try {
@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
     plus = false; // UNLOCK_SECRET not set yet
   }
   if (!plus) {
-    const rl = checkLimit(ip, limit);
+    const rl = await checkLimit(ip, limit);
     if (!rl.ok) return NextResponse.json({ type: "limit" }, { status: 429 });
   }
 

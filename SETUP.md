@@ -38,7 +38,7 @@ To turn it back on: set it to `true`, make sure the env vars below are set in Ve
 |---|---|---|---|
 | `GEMINI_API_KEY` | Stories (without it the app runs in demo mode) | AI Studio → Get API key | Server only |
 | `GEMINI_MODEL` | Which Gemini model | Leave as in `.env.example` | |
-| `DAILY_LIMIT` | Free stories per person per day | Your choice (default 10) | |
+| `DAILY_LIMIT` | Free stories per person per day | Your choice (default 5) | |
 | `UNLOCK_SECRET` | Signing Plus cookies | Already generated in `.env.local` | Copy the same value to Vercel. Changing it signs everyone out of Plus. |
 | `SOLANA_MERCHANT_WALLET` | Solana Pay | Your wallet's **public** address | Never the recovery phrase |
 | `SOLANA_RPC_URL` | Checking Solana payments | Helius dashboard → Mainnet RPC URL | |
@@ -70,7 +70,7 @@ Later, with a real domain, switch from Gmail to Resend.
 ## Before sharing with real users
 
 - [ ] Gemini: turn on billing (free tier data may be read by Google)
-- [ ] Rate limit that works on Vercel (current one is per server instance)
+- [ ] Rate limit that works on Vercel (now in memory, per server instance; plan: Supabase table + increment function in `lib/rateLimit.ts`)
 - [x] Privacy page contact email (bible.wyou@gmail.com)
 - [ ] Privacy page: have it reviewed
 - [x] AI disclosure (small note near the bottom of the home screen, `app/page.tsx`). Update its wording when Gemini switches to a paid key.
