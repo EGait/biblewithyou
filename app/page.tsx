@@ -83,7 +83,7 @@ export default function Home() {
     else await navigator.clipboard?.writeText(msg);
   }
 
-  const reset = () => setResult(null);
+  const reset = () => { setResult(null); setText(""); };
 
   return (
     <main className="wrap">
