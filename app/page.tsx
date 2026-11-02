@@ -16,7 +16,7 @@ type Result =
   | { type: "error"; message: string };
 
 const EXAMPLES = [
-  "My best friend went behind my back",
+  "I just moved and don't know anyone yet",
   "I'm anxious about money and bills",
   "I'm burned out and tired of everything",
   "I feel like I'm not good enough for my new job",
