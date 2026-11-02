@@ -80,4 +80,5 @@ Each entry: `id` (kebab-case, unique), `title`, `ref`, `tags` (feelings and situ
 8. [ ] Saved journal and verse cards for Plus (needs login). Move streaks and badges to the database on login (merge with the device's local streak, keep the higher values).
 8b. [ ] Daily verse push notification (web push with a service worker for the PWA, native push in the Capacitor app). User picks a time; off by default.
 9. [ ] Quarterly donation receipts on /donate.
+9b. [ ] (Back pocket, only if needed) `npm run grant-plus -- email plan` local admin script to manually grant Plus when a verified payment didn't register (e.g. Solana paid after the 10 min checker timeout). Requires the person to have an account. Until then: insert a row in Supabase Table Editor → `entitlements`.
 10. [ ] Capacitor iOS/Android build with native features so it passes App Store guideline 4.2: daily verse push notification, offline journal, share sheet, home screen widget.
